@@ -1,0 +1,3 @@
+starter\CucumberTestSuite.class
+starter\stepdefinitions\TentangKamiSteps.class
+starter\pages\TentangKamiPage.class
