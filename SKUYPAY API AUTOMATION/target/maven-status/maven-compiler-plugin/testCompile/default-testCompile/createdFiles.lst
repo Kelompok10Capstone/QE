@@ -1,0 +1,3 @@
+starter\CucumberTestSuite.class
+starter\api\auth\LoginUser.class
+starter\stepdefinitions\LoginUserSteps.class
