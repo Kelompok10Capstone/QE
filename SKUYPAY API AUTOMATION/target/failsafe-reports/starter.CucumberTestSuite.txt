@@ -1,4 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: starter.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.959 s - in starter.CucumberTestSuite
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 13.593 s <<< FAILURE! - in starter.CucumberTestSuite
+Login User.User tidak mendapatkan data token dari fitur login karena parameter email tidak diisi #1  Time elapsed: 0.406 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path message doesn't match.
+Expected: email field is required
+  Actual: user not found
+
+
+Login User.User tidak mendapatkan data token dari fitur login karena parameter email tidak diisi #2  Time elapsed: 0.279 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path message doesn't match.
+Expected: password field is required
+  Actual: user not found
+
+

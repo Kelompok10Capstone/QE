@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: starter.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 29.962 s <<< FAILURE! - in starter.CucumberTestSuite
-Tentang Kami.User ingin melihat "Tentang Kami"  Time elapsed: 22.305 s  <<< ERROR!
-org.openqa.selenium.ElementNotInteractableException: 
-element not interactable: element has zero size
-  (Session info: chrome=114.0.5735.133)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b4cca5e8496229ad8ca408bcc235bb61, clickElement {id=26BD04037EB4AF7F4D76EBC901D4F243_element_6}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:54758}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54758/devtoo..., se:cdpVersion: 114.0.5735.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (b4cca5e8496229ad8ca408bcc235bb61)] -> xpath: //h1[@class="sc-eLqIir fulApB" and text()="Tentang Kami"]]
-Session ID: b4cca5e8496229ad8ca408bcc235bb61
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.703 s - in starter.CucumberTestSuite

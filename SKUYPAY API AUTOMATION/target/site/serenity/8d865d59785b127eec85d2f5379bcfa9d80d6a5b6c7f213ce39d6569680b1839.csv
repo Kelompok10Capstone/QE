@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login User","User tidak mendapatkan data token dari fitur login karena kredensial password tidak valid","SUCCESS","2023-06-17T13:50:21.246414+07:00[Asia/Jakarta]","0.0","0.47"
+"Login User","User tidak mendapatkan data token dari fitur login karena nama email tidak terdaftar","SUCCESS","2023-06-17T13:50:21.7333287+07:00[Asia/Jakarta]","0.0","0.27"
+"Login User","User tidak mendapatkan data token dari fitur login karena parameter email tidak diisi","FAILURE","2023-06-17T13:50:22.0125771+07:00[Asia/Jakarta]","0.0","0.68"

@@ -143,7 +143,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 15-06-2023 10:55</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 17-06-2023 13:50</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -180,9 +180,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-x-circle-fill failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
-                                <span class="failing-color">
+                                <span class="success-color">
                                     User mendapatkan data token dari fitur login
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -246,7 +246,7 @@
                     </td>
 
                     <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">937ms</span></td>
+                    <td width="100"><span class="top-level-step">566ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -271,7 +271,7 @@
                     </td>
 
                     <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">006ms</span></td>
+                    <td width="100"><span class="nested-group-step">004ms</span></td>
                 </tr>
 
                             </table>
@@ -302,7 +302,7 @@
                     </td>
 
                     <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">7s 030ms</span></td>
+                    <td width="100"><span class="top-level-step">3s 942ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -332,7 +332,7 @@
                     </td>
 
                     <td width="130"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">7s 019ms</span></td>
+                    <td width="100"><span class="nested-step">3s 935ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -357,7 +357,7 @@
                     </td>
 
                     <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">002ms</span></td>
+                    <td width="100"><span class="nested-group-step"></span></td>
                 </tr>
                 <tr class="test-SUCCESS">
 
@@ -371,7 +371,7 @@
                     <td class="step-description-column">
                         <div class="step-description">
                                 <span class="nested-group-step">
-                                                POST https://be-golang.kucinghitam.tech/api/v1/login
+                                                POST http://34.101.78.228:2424/api/v1/login
                                         </span>
                             <span class="evidence">
                                         <span class="piece-of-evidence">
@@ -387,17 +387,17 @@
                         <div class="card">
                             <div class="card-body">
                                 <h4>Response</h4>
-                                    <p>URL: https://be-golang.kucinghitam.tech/api/v1/login</p>
-                                    <p>Status code: 400</p>
+                                    <p>URL: http://34.101.78.228:2424/api/v1/login</p>
+                                    <p>Status code: 200</p>
                                     <p>Content Type: application/json</p>
                                     <h4>Request Headers</h4>
-                                    <pre>Accept=*/*<br>Content-Type=application/JSON</pre>
+                                    <pre>Accept=*/*<br>Content-Type=application/json</pre>
                                     <h4>Content Body</h4>
-                                    <pre>{<br>    &quot;password&quot;: 12345678,<br>    &quot;email&quot;: &quot;user2@gmail.com&quot;<br>}</pre>
+                                    <pre>{<br>    &quot;password&quot;: &quot;12345678&quot;,<br>    &quot;email&quot;: &quot;user2@gmail.com&quot;<br>}</pre>
                                     <h4>Response Headers</h4>
-                                    <pre>content-type: application/json; charset=UTF-8<br>vary: Origin<br>date: Thu, 15 Jun 2023 03:55:22 GMT<br>Content-Length: 68<br>via: 1.1 google<br>Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000</pre>
+                                    <pre>Content-Type: application/json; charset=UTF-8<br>Vary: Origin<br>Date: Sat, 17 Jun 2023 06:50:13 GMT<br>Content-Length: 406</pre>
                                 <h4>Response Body</h4>
-                                    <pre>{<br>    &quot;status&quot;: 400,<br>    &quot;message&quot;: &quot;code=415, message=Unsupported Media Type&quot;<br>}</pre>
+                                    <pre>{<br>    &quot;data&quot;: {<br>        &quot;id&quot;: &quot;eaf0b5ed-d242-41aa-98e2-61b53f42fbde&quot;,<br>        &quot;name&quot;: &quot;user1&quot;,<br>        &quot;email&quot;: &quot;user2@gmail.com&quot;,<br>        &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJleHAiOjE2ODk1NzY2MTMsInVzZXJJZCI6ImVhZjBiNWVkLWQyNDItNDFhYS05OGUyLTYxYjUzZjQyZmJkZSIsInVzZXJfdHlwZSI6InVzZXIifQ.EfQ-0tDgdD9vFY7jPRRz2t6XujmqtqxmxKOUXxoxLRc&quot;<br>    },<br>    &quot;metadata&quot;: {<br>        &quot;status&quot;: 200,<br>        &quot;message&quot;: &quot;User Login successfully&quot;<br>    },<br>    &quot;pagination&quot;: null<br>}</pre>
                                     <h4>Response Cookies</h4>
                                     <pre></pre>
                             </div>
@@ -410,7 +410,7 @@
                     </td>
 
                     <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">001ms</span></td>
+                    <td width="100"><span class="nested-group-step"></span></td>
                 </tr>
 
                             </table>
@@ -420,13 +420,13 @@
                             </table>
                         </td>
                     </tr>
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
 
                     <td width="50" class="step-icon">
                         <a name="2"></a>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
                                style="display:block">
-                                <i class="bi bi-plus-square imgstepSection2 failure-icon"
+                                <i class="bi bi-plus-square imgstepSection2 success-icon"
                                    style="margin-left: 20px; float:left; padding-right:5px"></i>
                             </a>
                     </td>
@@ -444,18 +444,18 @@
                         </div>
                     </td>
 
-                    <td width="130"><span class="top-level-step">FAILURE</span></td>
-                    <td width="100"><span class="top-level-step">123ms</span></td>
+                    <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">042ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
                             <table id="stepSection2" class="step-table-nested" style="display:none;">
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
 
                     <td width="70" class="step-icon">
                         <a name="2-0"></a>
                             <span style="margin-left: 40px;"
-                                  class="nested-group-icon"><a href='##beforetable'><i class='bi bi-x-circle-fill failure-icon ' title='FAILURE'></i></a>
+                                  class="nested-group-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
                                 </span>
                     </td>
 
@@ -469,77 +469,73 @@
                         </div>
                     </td>
 
-                    <td width="130"><span class="nested-group-step">FAILURE</span></td>
-                    <td width="100"><span class="nested-group-step">113ms</span></td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">034ms</span></td>
                 </tr>
-                    <tr class="test-FAILURE">
-                        <td width="40">&nbsp</td>
-                        <td width="%" colspan="3" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">java.lang.AssertionError: 1 expectation failed.<br>Expected status code &lt;200&gt; but was &lt;400&gt;.<br></span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-8"
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="bi bi-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-8">
-            <div class="card">
-                <div class="card-header">
-                    <h4>java.lang.AssertionError </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)<br />io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy:-1)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)<br />io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)<br />starter.api.auth.LoginUser.lambda$iReceiveValidHTTPResponseCode$0(LoginUser.java:37)<br />net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)<br />starter.api.auth.LoginUser.iReceiveValidHTTPResponseCode(LoginUser.java:37)<br />starter.stepdefinitions.LoginUserSteps.iReceivedValidHTTPResponseCodeForLogin(LoginUserSteps.java:23)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:57)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:84)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:75)<br />io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)<br />io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)<br />io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)<br />io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:259)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:59)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                        </td>
-                    </tr>
 
                             </table>
                         </td>
                     </tr>
-                <tr class="test-SKIPPED">
+                <tr class="test-SUCCESS">
 
                     <td width="50" class="step-icon">
                         <a name="3"></a>
-                            <span style="margin-left: 20px;"
-                                  class="top-level-icon"><a href='##beforetable'><i class='bi bi-skip-forward skipped-icon ' title='SKIPPED'></i></a>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                               style="display:block">
+                                <i class="bi bi-plus-square imgstepSection3 success-icon"
+                                   style="margin-left: 20px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                               style="display:block;">
+                                <span class="top-level-step">
+                                                Then I received valid data for login
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                    <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">049ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection3" class="step-table-nested" style="display:none;">
+                <tr class="test-SUCCESS">
+
+                    <td width="70" class="step-icon">
+                        <a name="3-0"></a>
+                            <span style="margin-left: 40px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
                                 </span>
                     </td>
 
                     <td class="step-description-column">
                         <div class="step-description">
-                                <span class="top-level-step">
-                                                Then I received valid data for login
+                                <span class="nested-group-step">
+                                                I received valid data for login
                                         </span>
                             <span class="evidence">
                                 </span>
                         </div>
                     </td>
 
-                    <td width="130"><span class="top-level-step">SKIPPED</span></td>
-                    <td width="100"><span class="top-level-step">032ms</span></td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">045ms</span></td>
                 </tr>
-            <tr class="test-FAILURE">
+
+                            </table>
+                        </td>
+                    </tr>
+            <tr class="test-SUCCESS">
                     <td colspan="2"></td>
-                <td width="130"><span class="top-level-step"><em>FAILURE</em></span></td>
-                <td width="100"><span class="top-level-step"><em>8.66s</em></span></td>
+                <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                <td width="100"><span class="top-level-step"><em>4.73s</em></span></td>
             </tr>
 
         </table>

@@ -7,7 +7,7 @@ public class TentangKamiPage extends PageObject {
 
     // =============================== Locator ===============================
     private By TentangKami() {
-        return By.xpath("//h1[@class=\"sc-eLqIir fulApB\" and text()=\"Tentang Kami\"]");
+        return By.xpath("//body/div[@id='root']/div[1]/nav[1]/div[1]/div[1]/div[1]/div[1]/li[3]/a[1]/a[1]");
     }
     private By DivTentangKami() {
         return By.xpath("//div[@class=\"justify-content-center d-flex row text-center \"]");
