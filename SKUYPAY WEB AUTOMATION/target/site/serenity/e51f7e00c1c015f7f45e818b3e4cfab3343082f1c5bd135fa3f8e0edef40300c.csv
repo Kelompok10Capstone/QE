@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"PDAM","Admin berhasil menambahkan produk pdam","SUCCESS","2023-06-18T14:39:56.4184036+07:00[Asia/Jakarta]","0.0","34.02"
+"PDAM","Admin tidak dapat menambahkan produk PDAM karena tidak menginput kode PDAM","SUCCESS","2023-06-18T14:40:31.2240028+07:00[Asia/Jakarta]","0.0","14.12"
+"PDAM","Admin tidak dapat menambahkan produk PDAM karena tidak menginput jenis PDAM","SUCCESS","2023-06-18T14:40:45.6774383+07:00[Asia/Jakarta]","0.0","13.18"
+"PDAM","Admin tidak dapat menambahkan produk PDAM karena tidak menginput field wilayah","SUCCESS","2023-06-18T14:40:59.1795784+07:00[Asia/Jakarta]","0.0","12.19"
+"PDAM","Admin berhasil menggunakan fitur pencarian PDAM","SUCCESS","2023-06-18T14:41:11.7014472+07:00[Asia/Jakarta]","0.0","9.21"

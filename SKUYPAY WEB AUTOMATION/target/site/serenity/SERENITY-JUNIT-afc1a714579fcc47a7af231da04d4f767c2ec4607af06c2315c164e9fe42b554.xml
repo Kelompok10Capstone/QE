@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="4" failures="0" name="PDAM" skipped="0" tests="9" time="229.04" timestamp="2023-06-18 02:39:56"><testcase name="Admin berhasil menambahkan produk pdam"/><testcase name="Admin tidak dapat menambahkan produk PDAM karena tidak menginput kode PDAM"/><testcase name="Admin tidak dapat menambahkan produk PDAM karena tidak menginput jenis PDAM"/><testcase name="Admin tidak dapat menambahkan produk PDAM karena tidak menginput field wilayah"/><testcase name="Admin berhasil menggunakan fitur pencarian PDAM"/><testcase name="Admin ingin mengubah nama jenis PDAM"><error message="element not interactable&#10;  (Session info: chrome=114.0.5735.134)&#10;Build info: version: '4.7.1', revision: 'c6795baf1a3'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [baad0bf8953d3698db391a7e3a449831, clickElement {id=ABAE5BD7819AA04C86EE445891664D9B_element_64}]&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65358}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65358/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (baad0bf8953d3698db391a7e3a449831)] -&gt; xpath: /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[4]/a[1]/*[name()='svg'][1]]&#10;Session ID: baad0bf8953d3698db391a7e3a449831" type="org.openqa.selenium.ElementNotInteractableException">element not interactable
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [baad0bf8953d3698db391a7e3a449831, clickElement {id=ABAE5BD7819AA04C86EE445891664D9B_element_64}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65358}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65358/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (baad0bf8953d3698db391a7e3a449831)] -&gt; xpath: /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[4]/a[1]/*[name()='svg'][1]]
+Session ID: baad0bf8953d3698db391a7e3a449831</error><system-err>element not interactable
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [baad0bf8953d3698db391a7e3a449831, clickElement {id=ABAE5BD7819AA04C86EE445891664D9B_element_64}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65358}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65358/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (baad0bf8953d3698db391a7e3a449831)] -&gt; xpath: /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[4]/a[1]/*[name()='svg'][1]]
+Session ID: baad0bf8953d3698db391a7e3a449831&#13;
+skuypayweb@1.0-SNAPSHOT/starter.pages.PDAMPage.klikiconeditPDAM(PDAMPage.java:149)&#13;
+skuypayweb@1.0-SNAPSHOT/starter.stepdefinitions.PDAMSteps.adminKlikIconEditPadaSalahSatuProduk(PDAMSteps.java:86)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:57)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)&#13;
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:259)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:59)&#13;
+</system-err></testcase><testcase name="Admin ingin mengubah nama wilayah PDAM"><error message="element not interactable&#10;  (Session info: chrome=114.0.5735.134)&#10;Build info: version: '4.7.1', revision: 'c6795baf1a3'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [cd6b4c6c1311fdfc6a04bea00d1cddcd, clickElement {id=1D9D812BBCC1281CF74687AB32A7BF91_element_56}]&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65407}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65407/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (cd6b4c6c1311fdfc6a04bea00d1cddcd)] -&gt; xpath: /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[4]/a[1]/*[name()='svg'][1]]&#10;Session ID: cd6b4c6c1311fdfc6a04bea00d1cddcd" type="org.openqa.selenium.ElementNotInteractableException">element not interactable
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd6b4c6c1311fdfc6a04bea00d1cddcd, clickElement {id=1D9D812BBCC1281CF74687AB32A7BF91_element_56}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65407}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65407/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cd6b4c6c1311fdfc6a04bea00d1cddcd)] -&gt; xpath: /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[4]/a[1]/*[name()='svg'][1]]
+Session ID: cd6b4c6c1311fdfc6a04bea00d1cddcd</error><system-err>element not interactable
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd6b4c6c1311fdfc6a04bea00d1cddcd, clickElement {id=1D9D812BBCC1281CF74687AB32A7BF91_element_56}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65407}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65407/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cd6b4c6c1311fdfc6a04bea00d1cddcd)] -&gt; xpath: /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[4]/a[1]/*[name()='svg'][1]]
+Session ID: cd6b4c6c1311fdfc6a04bea00d1cddcd&#13;
+skuypayweb@1.0-SNAPSHOT/starter.pages.PDAMPage.klikiconeditPDAM(PDAMPage.java:149)&#13;
+skuypayweb@1.0-SNAPSHOT/starter.stepdefinitions.PDAMSteps.adminKlikIconEditPadaSalahSatuProduk(PDAMSteps.java:86)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:57)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)&#13;
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:259)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:59)&#13;
+</system-err></testcase><testcase name="Admin ingin menghapus salah satu nama produk PDAM"><error message="element not interactable&#10;  (Session info: chrome=114.0.5735.134)&#10;Build info: version: '4.7.1', revision: 'c6795baf1a3'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d9521f72fd1661aa3da8bfadd7cd933e, clickElement {id=48119BC04C0AA7B53F0AAD63E45512FB_element_25}]&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65460}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65460/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (d9521f72fd1661aa3da8bfadd7cd933e)] -&gt; xpath: //tbody[2]/tr[1]/td[4]/a[2]//*[name()='svg']]&#10;Session ID: d9521f72fd1661aa3da8bfadd7cd933e" type="org.openqa.selenium.ElementNotInteractableException">element not interactable
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9521f72fd1661aa3da8bfadd7cd933e, clickElement {id=48119BC04C0AA7B53F0AAD63E45512FB_element_25}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65460}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65460/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d9521f72fd1661aa3da8bfadd7cd933e)] -&gt; xpath: //tbody[2]/tr[1]/td[4]/a[2]//*[name()='svg']]
+Session ID: d9521f72fd1661aa3da8bfadd7cd933e</error><system-err>element not interactable
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9521f72fd1661aa3da8bfadd7cd933e, clickElement {id=48119BC04C0AA7B53F0AAD63E45512FB_element_25}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65460}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65460/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d9521f72fd1661aa3da8bfadd7cd933e)] -&gt; xpath: //tbody[2]/tr[1]/td[4]/a[2]//*[name()='svg']]
+Session ID: d9521f72fd1661aa3da8bfadd7cd933e&#13;
+skuypayweb@1.0-SNAPSHOT/starter.pages.PDAMPage.klikiconhapusPDAM(PDAMPage.java:157)&#13;
+skuypayweb@1.0-SNAPSHOT/starter.stepdefinitions.PDAMSteps.adminKlikIconHapusPadaSalahSatuProduk(PDAMSteps.java:102)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:57)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)&#13;
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:259)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:59)&#13;
+</system-err></testcase><testcase name="Admin tidak dapat menghapus salah satu data produk PDAM karena kesalahan klik tidak jadi ingin dihapus"><error message="element not interactable&#10;  (Session info: chrome=114.0.5735.134)&#10;Build info: version: '4.7.1', revision: 'c6795baf1a3'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d2a19bb89b17c43922249571f197f61e, clickElement {id=A3CD3D33AF0E27DABA99E64DE2DB0024_element_56}]&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65522}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65522/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (d2a19bb89b17c43922249571f197f61e)] -&gt; xpath: //tbody[2]/tr[1]/td[4]/a[2]//*[name()='svg']]&#10;Session ID: d2a19bb89b17c43922249571f197f61e" type="org.openqa.selenium.ElementNotInteractableException">element not interactable
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d2a19bb89b17c43922249571f197f61e, clickElement {id=A3CD3D33AF0E27DABA99E64DE2DB0024_element_56}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65522}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65522/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d2a19bb89b17c43922249571f197f61e)] -&gt; xpath: //tbody[2]/tr[1]/td[4]/a[2]//*[name()='svg']]
+Session ID: d2a19bb89b17c43922249571f197f61e</error><system-err>element not interactable
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d2a19bb89b17c43922249571f197f61e, clickElement {id=A3CD3D33AF0E27DABA99E64DE2DB0024_element_56}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65522}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65522/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d2a19bb89b17c43922249571f197f61e)] -&gt; xpath: //tbody[2]/tr[1]/td[4]/a[2]//*[name()='svg']]
+Session ID: d2a19bb89b17c43922249571f197f61e&#13;
+skuypayweb@1.0-SNAPSHOT/starter.pages.PDAMPage.klikiconhapusPDAM(PDAMPage.java:157)&#13;
+skuypayweb@1.0-SNAPSHOT/starter.stepdefinitions.PDAMSteps.adminKlikIconHapusPadaSalahSatuProduk(PDAMSteps.java:102)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:57)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)&#13;
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:259)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:59)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,5 @@
+starter\CucumberTestSuite.class
+starter\stepdefinitions\PDAMSteps.class
+starter\pages\PDAMPage.class
+starter\stepdefinitions\TransaksiSteps.class
+starter\pages\TransaksiPage.class
