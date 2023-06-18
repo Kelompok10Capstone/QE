@@ -1,4 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login User","User tidak mendapatkan data token dari fitur login karena kredensial password tidak valid","SUCCESS","2023-06-17T13:50:21.246414+07:00[Asia/Jakarta]","0.0","0.47"
-"Login User","User tidak mendapatkan data token dari fitur login karena nama email tidak terdaftar","SUCCESS","2023-06-17T13:50:21.7333287+07:00[Asia/Jakarta]","0.0","0.27"
-"Login User","User tidak mendapatkan data token dari fitur login karena parameter email tidak diisi","FAILURE","2023-06-17T13:50:22.0125771+07:00[Asia/Jakarta]","0.0","0.68"
+"Update Image","User belum berhasil mengubah gambar profil karena format gambar invalid","FAILURE","2023-06-18T07:56:29.5054116+07:00[Asia/Jakarta]","0.0","0.87"
+"Update Image","User belum berhasil mengubah gambar profil karena tidak authorization","ERROR","2023-06-18T07:56:30.4084784+07:00[Asia/Jakarta]","0.0","0.93"

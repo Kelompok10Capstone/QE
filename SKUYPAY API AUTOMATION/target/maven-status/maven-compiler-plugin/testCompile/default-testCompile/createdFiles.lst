@@ -1,3 +1,5 @@
 starter\CucumberTestSuite.class
 starter\api\auth\LoginUser.class
+starter\api\user\UpdateImage.class
 starter\stepdefinitions\LoginUserSteps.class
+starter\stepdefinitions\UpdateImageSteps.class
