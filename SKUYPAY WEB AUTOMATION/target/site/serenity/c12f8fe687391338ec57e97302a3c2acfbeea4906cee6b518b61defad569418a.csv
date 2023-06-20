@@ -1,5 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"PDAM","Admin ingin mengubah nama jenis PDAM","ERROR","2023-06-18T14:41:21.2392139+07:00[Asia/Jakarta]","0.0","35.62"
-"PDAM","Admin ingin mengubah nama wilayah PDAM","ERROR","2023-06-18T14:41:57.2976446+07:00[Asia/Jakarta]","0.0","36.62"
-"PDAM","Admin ingin menghapus salah satu nama produk PDAM","ERROR","2023-06-18T14:42:34.3724069+07:00[Asia/Jakarta]","0.0","37.48"
-"PDAM","Admin tidak dapat menghapus salah satu data produk PDAM karena kesalahan klik tidak jadi ingin dihapus","ERROR","2023-06-18T14:43:12.3076384+07:00[Asia/Jakarta]","0.0","36.61"

@@ -13,8 +13,8 @@ public class PDAMSteps {
     @Given("Admin melakukan login akun untuk fitur PDAM")
     public void adminMelakukanLoginAkunUntukFiturPDAM() {
         pdam.diHomepageSkuyPay();
-        pdam.inputfieldemail("capstoneprojectalta@gmail.com");
-        pdam.inputfieldpassword("kelompok10");
+        pdam.inputfieldemail("admin@mail.com");
+        pdam.inputfieldpassword("12345678");
         pdam.klikbuttonmasuk();
     }
 

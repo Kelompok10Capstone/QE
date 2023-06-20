@@ -1,5 +1,9 @@
+C:\Dev\CapstoneProjectBaru\SKUYPAY API AUTOMATION\src\test\java\starter\stepdefinitions\admin\PPD\GetAllPPDSteps.java
+C:\Dev\CapstoneProjectBaru\SKUYPAY API AUTOMATION\src\test\java\starter\api\admin\PPD\DeletePPDbyAdmin.java
 C:\Dev\CapstoneProjectBaru\SKUYPAY API AUTOMATION\src\test\java\starter\api\auth\LoginUser.java
+C:\Dev\CapstoneProjectBaru\SKUYPAY API AUTOMATION\src\test\java\starter\stepdefinitions\auth\LoginUserSteps.java
 C:\Dev\CapstoneProjectBaru\SKUYPAY API AUTOMATION\src\test\java\starter\api\user\UpdateImage.java
-C:\Dev\CapstoneProjectBaru\SKUYPAY API AUTOMATION\src\test\java\starter\stepdefinitions\LoginUserSteps.java
-C:\Dev\CapstoneProjectBaru\SKUYPAY API AUTOMATION\src\test\java\starter\stepdefinitions\UpdateImageSteps.java
+C:\Dev\CapstoneProjectBaru\SKUYPAY API AUTOMATION\src\test\java\starter\stepdefinitions\user\UpdateImageSteps.java
+C:\Dev\CapstoneProjectBaru\SKUYPAY API AUTOMATION\src\test\java\starter\stepdefinitions\admin\PPD\DeletePPDbyAdminSteps.java
+C:\Dev\CapstoneProjectBaru\SKUYPAY API AUTOMATION\src\test\java\starter\api\admin\PPD\GetAllPPD.java
 C:\Dev\CapstoneProjectBaru\SKUYPAY API AUTOMATION\src\test\java\starter\CucumberTestSuite.java

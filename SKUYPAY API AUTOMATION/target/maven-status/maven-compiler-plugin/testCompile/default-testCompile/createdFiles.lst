@@ -1,5 +1,9 @@
-starter\CucumberTestSuite.class
 starter\api\auth\LoginUser.class
+starter\api\admin\PPD\DeletePPDbyAdmin.class
+starter\stepdefinitions\admin\PPD\DeletePPDbyAdminSteps.class
+starter\api\admin\PPD\GetAllPPD.class
+starter\stepdefinitions\user\UpdateImageSteps.class
+starter\CucumberTestSuite.class
+starter\stepdefinitions\auth\LoginUserSteps.class
 starter\api\user\UpdateImage.class
-starter\stepdefinitions\LoginUserSteps.class
-starter\stepdefinitions\UpdateImageSteps.class
+starter\stepdefinitions\admin\PPD\GetAllPPDSteps.class

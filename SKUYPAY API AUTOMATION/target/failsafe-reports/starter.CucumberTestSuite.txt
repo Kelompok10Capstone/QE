@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: starter.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 23.276 s <<< FAILURE! - in starter.CucumberTestSuite
-Update Image.User belum berhasil mengubah gambar profil karena format gambar invalid  Time elapsed: 0.96 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <400> but was <200>.
-
-
-Update Image.User belum berhasil mengubah gambar profil karena tidak authorization  Time elapsed: 0.951 s  <<< ERROR!
-java.lang.RuntimeException: Some exception during recording fields
-Caused by: org.apache.http.client.ClientProtocolException
-Caused by: org.apache.http.client.NonRepeatableRequestException: Cannot retry request with a non-repeatable request entity.  The cause lists the reason the original request failed.
-Caused by: java.net.SocketException: Connection reset by peer
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.14 s - in starter.CucumberTestSuite

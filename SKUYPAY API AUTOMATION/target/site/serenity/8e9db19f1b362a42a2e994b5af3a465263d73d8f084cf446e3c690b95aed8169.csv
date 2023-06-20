@@ -1,3 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Update Image","User belum berhasil mengubah gambar profil karena format gambar invalid","FAILURE","2023-06-18T07:56:29.5054116+07:00[Asia/Jakarta]","0.0","0.87"
-"Update Image","User belum berhasil mengubah gambar profil karena tidak authorization","ERROR","2023-06-18T07:56:30.4084784+07:00[Asia/Jakarta]","0.0","0.93"
+"Delete PPD use id by Admin","Admin belum berhasil menghapus salah satu id pulsa karena belum login","FAILURE","2023-06-20T21:30:25.792923+07:00[Asia/Jakarta]","0.0","0.65"

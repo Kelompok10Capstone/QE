@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Update Image","User berhasil mengubah gambar profil","SUCCESS","2023-06-18T07:56:19.6217441+07:00[Asia/Jakarta]","0.0","9.78"
-"Update Image","User belum berhasil mengubah gambar profil karena format gambar invalid","FAILURE","2023-06-18T07:56:29.5054116+07:00[Asia/Jakarta]","0.0","0.87"
-"Update Image","User belum berhasil mengubah gambar profil karena tidak authorization","ERROR","2023-06-18T07:56:30.4084784+07:00[Asia/Jakarta]","0.0","0.93"
+"Delete PPD use id by Admin","Admin berhasil menghapus salah satu id pulsa","SUCCESS","2023-06-20T21:32:58.2831667+07:00[Asia/Jakarta]","0.0","9.43"
+"Delete PPD use id by Admin","Admin berhasil menghapus salah satu id paket data","SUCCESS","2023-06-20T21:33:07.8166769+07:00[Asia/Jakarta]","0.0","0.67"
+"Delete PPD use id by Admin","Admin belum berhasil menghapus salah satu id pulsa karena belum login","SUCCESS","2023-06-20T21:33:08.531275+07:00[Asia/Jakarta]","0.0","0.62"

@@ -98,8 +98,8 @@ public class LoginUser {
     @Step("I send login HTTP request with no input password")
     public void iSendPOSTHTTPRequestwithnoinputpassword() {
         String body = "{\n" +
-                "    \"password\": \"12345678\",\n" +
-                "    \"email\": \"\"\n" +
+                "    \"password\": \"\",\n" +
+                "    \"email\": \"user2@gmail.com\"\n" +
                 "}";
         JSONObject reqBody = new JSONObject(body);
         SerenityRest.given().header("Content-Type", "application/json").body(reqBody.toString()).post(iSetLoginApiEndpoints());
