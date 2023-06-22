@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Insurance Pay Bill","User berhasil membayar tagihan BPJS","FAILURE","2023-06-23T05:55:58.5274083+07:00[Asia/Jakarta]","0.0","0.48"
+"Get Internet By Id","User berhasil mendapat data wifi dari id","SUCCESS","2023-06-23T05:55:59.0886112+07:00[Asia/Jakarta]","0.0","0.62"
+"Internet Pay Bill","User berhasil membayar WiFi","FAILURE","2023-06-23T05:55:59.7638085+07:00[Asia/Jakarta]","0.0","0.43"
+"Get PDAM By Id","User berhasil mendapat data PDAM dari id","SUCCESS","2023-06-23T05:56:00.2409683+07:00[Asia/Jakarta]","0.0","0.44"

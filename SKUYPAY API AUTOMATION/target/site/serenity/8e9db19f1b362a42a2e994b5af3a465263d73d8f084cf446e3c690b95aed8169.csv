@@ -1,2 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Delete PPD use id by Admin","Admin belum berhasil menghapus salah satu id pulsa karena belum login","FAILURE","2023-06-20T21:30:25.792923+07:00[Asia/Jakarta]","0.0","0.65"
+"Insurance Pay Bill","User berhasil membayar tagihan BPJS","FAILURE","2023-06-23T05:55:58.5274083+07:00[Asia/Jakarta]","0.0","0.48"
+"Internet Pay Bill","User berhasil membayar WiFi","FAILURE","2023-06-23T05:55:59.7638085+07:00[Asia/Jakarta]","0.0","0.43"
+"Update Image","User belum berhasil mengubah gambar profil karena format gambar invalid","FAILURE","2023-06-23T05:56:05.0293261+07:00[Asia/Jakarta]","0.0","0.98"

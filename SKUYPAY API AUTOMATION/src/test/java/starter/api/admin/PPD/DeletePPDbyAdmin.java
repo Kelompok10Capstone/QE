@@ -3,8 +3,7 @@ package starter.api.admin.PPD;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
 import org.json.JSONObject;
-import java.util.HashMap;
-import java.util.Map;
+
 
 import static net.serenitybdd.rest.SerenityRest.lastResponse;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
@@ -23,7 +22,7 @@ public class DeletePPDbyAdmin {
     @Step("Admin send endpoint auth and get token")
     public void adminsendendpointauthandgettoken() {
         String body = "{\n" +
-                "    \"password\": \"123123\",\n" +
+                "    \"password\": \"12345678\",\n" +
                 "    \"email\": \"admin1@gmail.com\"\n" +
                 "}";
         JSONObject reqBody = new JSONObject(body);

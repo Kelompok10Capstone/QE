@@ -22,7 +22,7 @@ public class UpdateImage {
     public void iSendEndpointAuthforUpdateImageUserandGetToken() {
         String body = "{\n" +
                 "    \"password\": \"12345678\",\n" +
-                "    \"email\": \"user2@gmail.com\"\n" +
+                "    \"email\": \"melmel@gmail.com\"\n" +
                 "}";
         JSONObject reqBody = new JSONObject(body);
         SerenityRest.given().header("Content-Type", "application/json").body(reqBody.toString()).post(iHaveEndpointAuthforUpdateImageUser());

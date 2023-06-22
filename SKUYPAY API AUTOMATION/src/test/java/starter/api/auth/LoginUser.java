@@ -23,7 +23,7 @@ public class LoginUser {
     public void iSendPOSTHTTPRequest() {
         String body = "{\n" +
                 "    \"password\": \"12345678\",\n" +
-                "    \"email\": \"user2@gmail.com\"\n" +
+                "    \"email\": \"melmel@gmail.com\"\n" +
                 "}";
         JSONObject reqBody = new JSONObject(body);
         SerenityRest.given().header("Content-Type", "application/json").body(reqBody.toString()).post(iSetLoginApiEndpoints());
@@ -45,7 +45,7 @@ public class LoginUser {
     public void iSendPOSTHTTPRequestwithinvaliddataforloginfeature() {
         String body = "{\n" +
                 "    \"password\": \"12345679\",\n" +
-                "    \"email\": \"user2@gmail.com\"\n" +
+                "    \"email\": \"melmel@gmail.com\"\n" +
                 "}";
         JSONObject reqBody = new JSONObject(body);
         SerenityRest.given().header("Content-Type", "application/json").body(reqBody.toString()).post(iSetLoginApiEndpoints());
@@ -67,7 +67,7 @@ public class LoginUser {
     public void iSendPOSTHTTPRequestwithinvalidemailnotregistered() {
         String body = "{\n" +
                 "    \"password\": \"12345678\",\n" +
-                "    \"email\": \"user20@gmail.com\"\n" +
+                "    \"email\": \"melmel1@gmail.com\"\n" +
                 "}";
         JSONObject reqBody = new JSONObject(body);
         SerenityRest.given().header("Content-Type", "application/json").body(reqBody.toString()).post(iSetLoginApiEndpoints());
@@ -99,7 +99,7 @@ public class LoginUser {
     public void iSendPOSTHTTPRequestwithnoinputpassword() {
         String body = "{\n" +
                 "    \"password\": \"\",\n" +
-                "    \"email\": \"user2@gmail.com\"\n" +
+                "    \"email\": \"melmel@gmail.com\"\n" +
                 "}";
         JSONObject reqBody = new JSONObject(body);
         SerenityRest.given().header("Content-Type", "application/json").body(reqBody.toString()).post(iSetLoginApiEndpoints());

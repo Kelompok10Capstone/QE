@@ -23,7 +23,7 @@ public class GetAllPPD {
     @Step("Admin send endpoint auth for get PDD feature and get token")
     public void adminsendendpointauthforgetPDDfeatureandgettoken() {
         String body = "{\n" +
-                "    \"password\": \"123123\",\n" +
+                "    \"password\": \"12345678\",\n" +
                 "    \"email\": \"admin1@gmail.com\"\n" +
                 "}";
         JSONObject reqBody = new JSONObject(body);
