@@ -14,8 +14,8 @@ public class TransaksiSteps {
     @Given("Admin melakukan login akun")
     public void adminMelakukanLoginAkun() {
         transaksi.diHomepageSkuyPay();
-        transaksi.inputfieldemail("capstoneprojectalta@gmail.com");
-        transaksi.inputfieldpassword("kelompok10");
+        transaksi.inputfieldemail("admin@mail.com");
+        transaksi.inputfieldpassword("12345678");
         transaksi.klikbuttonmasuk();
     }
 
@@ -35,10 +35,14 @@ public class TransaksiSteps {
     public void adminKlikSelesai() { transaksi.pilihitemselesai();
     }
     //============================================ Transaksi-03 ===========================================
+    @And("Admin klik belum bayar")
+    public void adminKlikBelumBayar() { transaksi.pilihitembelumbayar();
+    }
+    //============================================ Transaksi-04 ===========================================
     @And("Admin klik Gagal")
     public void adminKlikGagal() { transaksi.pilihitemgagal();
     }
-    //============================================ Transaksi-04 ===========================================
+    //============================================ Transaksi-05 ===========================================
     @And("Admin klik field cari")
     public void adminKlikFieldCari() { transaksi.klikcaritransaksi();
     }

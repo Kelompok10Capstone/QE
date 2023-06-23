@@ -1,7 +1,7 @@
 Feature: PDAM
 
   @PDAM-01
-  Scenario: Admin berhasil menambahkan produk pdam
+  Scenario: Admin berhasil menambahkan produk PDAM
     Given Admin melakukan login akun untuk fitur PDAM
     When Pada Beranda, Admin klik Layanan
     And Admin klik PDAM

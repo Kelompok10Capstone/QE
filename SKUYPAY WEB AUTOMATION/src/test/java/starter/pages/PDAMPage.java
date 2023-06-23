@@ -13,7 +13,7 @@ public class PDAMPage extends PageObject {
     }
 
     private By passwordfield() {
-        return By.xpath("//input[@class=\"form-control\" and @name=\"Kata Sandi*\"]");
+        return By.xpath("//input[@name='password']");
     }
 
     private By masukbutton() {
@@ -21,7 +21,7 @@ public class PDAMPage extends PageObject {
     }
 
     private By layananmenu() {
-        return By.xpath("//body/div[@id='root']/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]");
+        return By.xpath("//a[normalize-space()='Layanan']");
     }
     private By pdam() {
         return By.xpath("//a[@href=\"/admin/layanan/pdam\"]");
@@ -31,138 +31,158 @@ public class PDAMPage extends PageObject {
     }
 
     private By kodePDAMfield() {
-        return By.xpath("//input[@name=\"Kode PDAM*\"]");
+        return By.xpath("//input[1]");
     }
 
     private By jenisPDAMfield() {
-        return By.xpath("//input[@name=\"Jenis PDAM*\"]");
+        return By.xpath("//input[2]");
     }
 
     private By wilayahfield() {
-        return By.xpath("//input[@name=\"Wilayah*\"]");
+        return By.xpath("//input[3]");
     }
 
     private By buttonsimpan() {
-        return By.xpath("//button[@class=\"btn btn-primary\"]");
+        return By.xpath("//button[normalize-space()='Simpan']");
     }
 
     private By popupberhasil() {
-        return By.xpath("//div[@class=\"swa12-popup swa12-modal swa12-show\"]");
+        return By.xpath("//body[@class=\"swa12-shown swa12-height-auto\"]");
     }
 
     private By cariPDAMfield() {
-        return By.xpath("//input[@placeholder='Cari PDAM...']");
+        return By.xpath("//input[@placeholder='Cari Nama PDAM']");
     }
     private By iconedit() {
-        return By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[4]/a[1]/*[name()='svg'][1]");
+        return By.xpath("//tbody[1]/tr[1]/td[4]/a[1]//*[name()='svg']");
     }
 
     private By popupberhasildiubah() {
         return By.xpath("//div[@class=\"swa12-container swa12-center swa12-backdrop-show\"]");
     }
     private By iconhapus() {
-        return By.xpath("//tbody[2]/tr[1]/td[4]/a[2]//*[name()='svg']");
+        return By.xpath("//tbody[2]/tr[1]/td[4]/a[2]//*[name()='svg']//*[name()='path' and contains(@fill-rule,'evenodd')]");
     }
     private By buttonhapus() {
-        return By.xpath("//button[@class=\"swal2-confirm swal2-styled swal2-default-outline\"]");
+        return By.xpath("//button[@class=\"swal2-confirm delete-confirmButton swal2-styled\"]");
     }
     private By buttonbatal() {
-        return By.xpath("//button[@class=\"swal2-cancel swal2-styled swal2-default-outline\"]");
+        return By.xpath("//button[@class=\"swal2-cancel delete-cancelButton swal2-styled\"]");
     }
     //=============================================== Functional ======================================================
     @Step
-    public void diHomepageSkuyPay() {
+    public void diHomepageSkuyPay() throws InterruptedException {
         open();
         $(emailfield()).shouldBeVisible();
+        Thread.sleep(1500);
     }
 
     @Step
-    public void inputfieldemail(String email) {
+    public void inputfieldemail(String email) throws InterruptedException {
         $(emailfield()).click();
         $(emailfield()).type(email);
+        Thread.sleep(1500);
     }
 
     @Step
-    public void inputfieldpassword(String password) {
+    public void inputfieldpassword(String password) throws InterruptedException {
         $(passwordfield()).click();
         $(passwordfield()).type(password);
+        Thread.sleep(1500);
     }
 
     @Step
-    public void klikbuttonmasuk() {
+    public void klikbuttonmasuk() throws InterruptedException {
         $(masukbutton()).click();
+        Thread.sleep(1500);
     }
 
     @Step
-    public void klikmenulayanan() {
+    public void klikmenulayanan() throws InterruptedException {
         $(layananmenu()).click();
+        Thread.sleep(1500);
     }
     @Step
-    public void klikpdam() {
+    public void klikpdam() throws InterruptedException {
         $(pdam()).click();
+        Thread.sleep(1500);
     }
     @Step
-    public void kliktambahpdam() {
+    public void kliktambahpdam() throws InterruptedException {
         $(tambahpdam()).click();
+        Thread.sleep(1500);
     }
 
     @Step
-    public void inputfieldkodepdam(String kode) {
+    public void inputfieldkodepdam(String kode) throws InterruptedException {
         $(kodePDAMfield()).click();
         $(kodePDAMfield()).type(kode);
+        Thread.sleep(1500);
     }
 
     @Step
-    public void inputfieldjenispdam(String namajenis) {
+    public void inputfieldjenispdam(String namajenis) throws InterruptedException {
         $(jenisPDAMfield()).click();
         $(jenisPDAMfield()).type(namajenis);
+        Thread.sleep(1500);
     }
 
     @Step
-    public void inputfieldwilayah(String wilayah) {
+    public void inputfieldwilayah(String wilayah) throws InterruptedException {
         $(wilayahfield()).click();
         $(wilayahfield()).type(wilayah);
+        Thread.sleep(1500);
     }
 
     @Step
-    public void klikbuttonsimpandanmunculpopupberhasil() {
+    public void klikbuttonsimpandanmunculpopupberhasil() throws InterruptedException {
         $(buttonsimpan()).click();$(popupberhasil()).isVisible();
+        Thread.sleep(1500);
     }
     @Step
-    public void klikbuttonsimpandantidakmunculpopupberhasil() {
+    public void klikbuttonsimpandantidakmunculpopupberhasil() throws InterruptedException {
         $(buttonsimpan()).click();$(popupberhasil()).shouldNotBeCurrentlyVisible();
+        Thread.sleep(1500);
     }
     @Step
-    public void klikfieldcariPDAM() {
+    public void klikfieldcariPDAM() throws InterruptedException {
         $(cariPDAMfield()).click();
+        Thread.sleep(1500);
     }
     @Step
-    public void inputfieldcariPDAM(String name) {
+    public void inputfieldcariPDAM(String name) throws InterruptedException  {
         $(cariPDAMfield()).type(name);
+        Thread.sleep(1500);
     }
     @Step
-    public void entercariPDAM() {
+    public void entercariPDAM() throws InterruptedException  {
         $(cariPDAMfield()).sendKeys(Keys.ENTER);
+        Thread.sleep(1500);
     }
     @Step
-    public void klikiconeditPDAM() {
+    public void klikiconeditPDAM() throws InterruptedException  {
         $(iconedit()).click();
+        Thread.sleep(1500);
     }
     @Step
-    public void klikbuttonsimpandanmunculpopupberhasildirubah() {
+    public void klikbuttonsimpandanmunculpopupberhasildirubah() throws InterruptedException  {
         $(buttonsimpan()).click();$(popupberhasildiubah()).isVisible();
+        Thread.sleep(1500);
     }
     @Step
-    public void klikiconhapusPDAM() {
+    public void klikiconhapusPDAM() throws InterruptedException  {
         $(iconhapus()).click();
+        Thread.sleep(1500);
     }
     @Step
-    public void klikbuttonhapus() {
+    public void klikbuttonhapus() throws InterruptedException {
         $(buttonhapus()).click();
+        Thread.sleep(1500);
     }
     @Step
-    public void klikbuttonbatal() {
-        $(buttonhapus()).click();
+    public void klikbuttonbatal() throws InterruptedException  {
+        $(buttonbatal()).click();
+        Thread.sleep(1500);
     }
 }
 

@@ -7,34 +7,37 @@ import org.openqa.selenium.Keys;
 
 public class TransaksiPage extends PageObject {
 
-    // =============================== Locator ===============================
+    //==================================== Locator ==========================================================
     private By emailfield() {
         return By.xpath("//input[@class=\"form-control mb-4\"]");
     }
     private By passwordfield() {
-        return By.xpath("//input[@class=\"form-control\" and @name=\"Kata Sandi*\"]");
+        return By.xpath("//input[@name='password']");
     }
 
     private By masukbutton() {
         return By.xpath("//button[@class=\"col-12 button-login mt-4\" and @type=\"button\"]");
     }
     private By transaksimenu() {
-        return By.xpath("//a[@class=\"nav-link text-dark \" and @href=\"/admin/transaksi\"]");
+        return By.xpath("//a[@class='nav-link text-dark active']");
     }
     private By itemsemua() {
-        return By.xpath("//a[@data-rr-ui-event-key=\"semua\"]");
+        return By.xpath("//a[@data-rr-ui-event-key='semua']");
     }
     private By statusselesai() {
-        return By.xpath("//td[@class=\"text-danger\" and text()=\"Selesai\"]");
+        return By.xpath("(//td[contains(text(),'successful')])[1]");
     }
     private By statusgagal() {
         return By.xpath("//td[@class=\"text-danger\" and text()=\"Gagal\"]");
     }
     private By itemselesai() {
-        return By.xpath("//a[@data-rr-ui-event-key=\"selesai\"]");
+        return By.xpath("//a[@id='react-aria7549791933-1-tab-selesai']");
+    }
+    private By itembelumbayar() {
+        return By.xpath("//a[@data-rr-ui-event-key='proses']");
     }
     private By itemgagal() {
-        return By.xpath("//a[@data-rr-ui-event-key=\"gagal\"]");
+        return By.xpath("//a[@data-rr-ui-event-key='gagal']");
     }
     private By CariTransaksifield() {
         return By.xpath("//input[@placeholder=\"Cari Transaksi\"]");
@@ -85,6 +88,10 @@ public class TransaksiPage extends PageObject {
         $(itemgagal()).click();
     }
     @Step
+    public void pilihitembelumbayar() {
+        $(itembelumbayar()).click();
+    }
+    @Step
     public void klikcaritransaksi() {
         $(CariTransaksifield()).click();
     }
@@ -97,4 +104,3 @@ public class TransaksiPage extends PageObject {
         $(CariTransaksifield()).sendKeys(Keys.ENTER);
     }
 }
-

@@ -1,7 +1,7 @@
 Feature: Insurance (BPJS) untuk Insurance Biil Inquiry
 
   @Insurance-Biil-Inquiry-01
-  Scenario: User berhasil mengecek data status BPJS nya
+  Scenario: User berhasil mengecek tagihan transaksi BPJS nya
     Given User have endpoint auth login for insurance biil inquiry
     When User send endpoint auth for insurance biil inquiry and get token
     Then User set insurance biil inquiry endpoint

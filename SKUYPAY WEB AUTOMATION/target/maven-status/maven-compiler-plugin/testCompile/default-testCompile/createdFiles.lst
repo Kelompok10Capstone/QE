@@ -1,5 +1,15 @@
-starter\CucumberTestSuite.class
-starter\stepdefinitions\PDAMSteps.class
+starter\pages\TopUpPage.class
+starter\stepdefinitions\PromoSteps.class
+starter\pages\BPJSpage.class
 starter\pages\PDAMPage.class
 starter\stepdefinitions\TransaksiSteps.class
+starter\stepdefinitions\BPJSsteps.class
+starter\stepdefinitions\TopUpSteps.class
+starter\pages\WifiPage.class
+starter\stepdefinitions\WifiSteps.class
+starter\CucumberTestSuite.class
+starter\stepdefinitions\PDAMSteps.class
+starter\stepdefinitions\PulsanPaketDataSteps.class
+starter\pages\PromoPage.class
+starter\pages\PulsanPaketData.class
 starter\pages\TransaksiPage.class
