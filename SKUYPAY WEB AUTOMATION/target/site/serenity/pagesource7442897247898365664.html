@@ -1,0 +1,679 @@
+<html lang='en'><head><link href='prism/prism.css' rel='stylesheet' /></head><body><script src='prism/prism.js'></script><body><div><pre><code class='language-html'>&lt;html lang="en" class=""&gt;<br/>
+ &lt;head&gt; <br/>
+  &lt;meta charset="UTF-8"&gt; <br/>
+  &lt;link rel="icon" type="image/svg+xml" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAThSURBVHgBvZlxTBtVHMe/V2hppdAKY4rdpKhzOGeYIo1GF4t/+M+iI1lm/EfHEo2J08gSExeXKC4xxD/ULRET/4KQ+N+UasKfGw0SF0CRTcYmblDcGBnMFFugtIU+37v37rji6O6u132ad+/u3Xv3vvm99/u9d1cJJiCEeGm2h6ZmmmrEuX9DtYhI52kKS5IUQqGhwoI0naQpSozD2nTS5IfVsIfS1Eeso9MyofRBraRwfAKz0MZeYq3VNqOPGLUm4UM6RSzm0pVbm92a0i2yUOI6un8lLUdDuapMER4dsrDdRmMn/h8yTBNfTuP4qQF8890IhkdvYPj3mc2q+mnqQS6BhE/aICxi+NI8DnzQi9DZK2rZ2YHJXE1YGGvVFhRjXZyfZm2wQtjEP+jouYjhP2aB5Cp7OAgtl+ghHk/eqflXVEuIBvZIlkArxA1PRtHRO4Gh8TkqLC0L4kj0Zwg2zZpUgcJ6h2CCOLVQ9+Asun+eRvzfFdliTIyqjZ1JshHl8p07qvQ8lg11kFoxrFiwDSboHpnD1/3XsBjnwrRI2gNRMoIXn39I7+PZOh9WnGQ/DPLRmeto75+hFlwTSpRBJLK1xKlayvI3DtbDV12mswccYmHHRg9MqRcGaD93Ez1/RjUlJCuTsu4QSLSg7pFKfPjOczCAvGNiFgwaadVzNYbu8eiGUklVxdyBiCJliHfWVqDz830wQTObg/VGWnRcuI3lNKdyQJH4MDMvfn1fHY61NMAkfiawVm/toZsruL7InUHSHHmU40PJSyU8XbcFR16uQ+CxrciDeiawRm/tofmVTe8pka5xRwWOvPQwAo9uwczyKi4upPG41w6T+IuN1J5ZWs0So1BeUozmwAOyI1yOr6F9OonpC3/jWjSFmMOJ4w334uPdpTCDIYHrECGU4nLAXVOBHxI2xEcWQFYzSM7FEIunkPK4AQdwYmwJL2x10GTcksyLF/RW9pUWy/NMDXNOOzLVFZhJ0RUlnUEmkcLSb5NI3FhgMxLqTKWNTowtwgQLTGBEb+1AlVMsWbTj4iIQr1u9txaZR7J/HCSR5qKE47D6NNZieikDE0SYwPN6awfucyJwv0vuGHY6O4r4QpS5OovM4ASQWpOvZVHg1STh2maGlzLNehg10qL92Sq4HTaQIuEoiwlgYFzEP14kD660HoL2+0rwxVO6lzgtISbQ0Au1z21HqLkWPhf3L+mnQZ5LmvVYbGc8JTacbqrE93s98NoNbrg4YZvYGIYNNIKvzI4zB2vxri0GxJblMiLGVNkobPfY8ctrfrzyoAsmGWXalN3MjzBBX+8YP9GseMyQu6tL0f/WLtR4HMiDU+ygCOyCgXDDiC8mcfmvW1mjythe4UTP2/XwOE2GWE6EWq9LFUgvmLhPjTwhJr9bCHeVeFDxVbpwurUR5a68xEGrRX2royJPwsBcLHeXaK74GH/5ZgO2Vd6DPFGtlyVQcBg6h7qsrASNT25Trw8E/Xhml673jVywvpu0BVkChUcfhU6OvbcXZW7mCBLef/UJWMBh5XUzJ3RpaiM6GaffWz779hyxgDYYgRT2s9tGWmAG2nAPKcCHJA1TrA/kA+Ffu7qI9bBPyYbeJu+W0DBNQRQKIbRFdKSHqKjbasZiprYYGwQrf0GwpAiIiJxt5SJipTLFfx9c8Mr0E1+SAAAAAElFTkSuQmCC"&gt; <br/>
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; <br/>
+  &lt;title&gt;Skuypay&lt;/title&gt; <br/>
+  &lt;script type="module" crossorigin="" src="/assets/index-08972ec0.js"&gt;&lt;/script&gt; <br/>
+  &lt;link rel="stylesheet" href="/assets/index-e779b59e.css"&gt; <br/>
+  &lt;style&gt;.swal2-popup.swal2-toast{box-sizing:border-box;grid-column:1/4 !important;grid-row:1/4 !important;grid-template-columns:min-content auto min-content;padding:1em;overflow-y:hidden;background:#fff;box-shadow:0 0 1px rgba(0,0,0,.075),0 1px 2px rgba(0,0,0,.075),1px 2px 4px rgba(0,0,0,.075),1px 3px 8px rgba(0,0,0,.075),2px 4px 16px rgba(0,0,0,.075);pointer-events:all}.swal2-popup.swal2-toast&gt;*{grid-column:2}.swal2-popup.swal2-toast .swal2-title{margin:.5em 1em;padding:0;font-size:1em;text-align:initial}.swal2-popup.swal2-toast .swal2-loading{justify-content:center}.swal2-popup.swal2-toast .swal2-input{height:2em;margin:.5em;font-size:1em}.swal2-popup.swal2-toast .swal2-validation-message{font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{grid-column:3/3;grid-row:1/99;align-self:center;width:.8em;height:.8em;margin:0;font-size:2em}.swal2-popup.swal2-toast .swal2-html-container{margin:.5em 1em;padding:0;overflow:initial;font-size:1em;text-align:initial}.swal2-popup.swal2-toast .swal2-html-container:empty{padding:0}.swal2-popup.swal2-toast .swal2-loader{grid-column:1;grid-row:1/99;align-self:center;width:2em;height:2em;margin:.25em}.swal2-popup.swal2-toast .swal2-icon{grid-column:1;grid-row:1/99;align-self:center;width:2em;min-width:2em;height:2em;margin:0 .5em 0 0}.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:1.8em;font-weight:bold}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{justify-content:flex-start;height:auto;margin:0;margin-top:.5em;padding:0 .5em}.swal2-popup.swal2-toast .swal2-styled{margin:.25em .5em;padding:.4em .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:1.6em;height:3em;transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-0.8em;left:-0.5em;transform:rotate(-45deg);transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-0.25em;left:.9375em;transform-origin:0 1.5em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-tip{animation:swal2-toast-animate-success-line-tip .75s}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-long{animation:swal2-toast-animate-success-line-long .75s}.swal2-popup.swal2-toast.swal2-show{animation:swal2-toast-show .5s}.swal2-popup.swal2-toast.swal2-hide{animation:swal2-toast-hide .1s forwards}.swal2-container{display:grid;position:fixed;z-index:1060;inset:0;box-sizing:border-box;grid-template-areas:"top-start     top            top-end" "center-start  center         center-end" "bottom-start  bottom-center  bottom-end";grid-template-rows:minmax(min-content, auto) minmax(min-content, auto) minmax(min-content, auto);height:100%;padding:.625em;overflow-x:hidden;transition:background-color .1s;-webkit-overflow-scrolling:touch}.swal2-container.swal2-backdrop-show,.swal2-container.swal2-noanimation{background:rgba(0,0,0,.4)}.swal2-container.swal2-backdrop-hide{background:rgba(0,0,0,0) !important}.swal2-container.swal2-top-start,.swal2-container.swal2-center-start,.swal2-container.swal2-bottom-start{grid-template-columns:minmax(0, 1fr) auto auto}.swal2-container.swal2-top,.swal2-container.swal2-center,.swal2-container.swal2-bottom{grid-template-columns:auto minmax(0, 1fr) auto}.swal2-container.swal2-top-end,.swal2-container.swal2-center-end,.swal2-container.swal2-bottom-end{grid-template-columns:auto auto minmax(0, 1fr)}.swal2-container.swal2-top-start&gt;.swal2-popup{align-self:start}.swal2-container.swal2-top&gt;.swal2-popup{grid-column:2;align-self:start;justify-self:center}.swal2-container.swal2-top-end&gt;.swal2-popup,.swal2-container.swal2-top-right&gt;.swal2-popup{grid-column:3;align-self:start;justify-self:end}.swal2-container.swal2-center-start&gt;.swal2-popup,.swal2-container.swal2-center-left&gt;.swal2-popup{grid-row:2;align-self:center}.swal2-container.swal2-center&gt;.swal2-popup{grid-column:2;grid-row:2;align-self:center;justify-self:center}.swal2-container.swal2-center-end&gt;.swal2-popup,.swal2-container.swal2-center-right&gt;.swal2-popup{grid-column:3;grid-row:2;align-self:center;justify-self:end}.swal2-container.swal2-bottom-start&gt;.swal2-popup,.swal2-container.swal2-bottom-left&gt;.swal2-popup{grid-column:1;grid-row:3;align-self:end}.swal2-container.swal2-bottom&gt;.swal2-popup{grid-column:2;grid-row:3;justify-self:center;align-self:end}.swal2-container.swal2-bottom-end&gt;.swal2-popup,.swal2-container.swal2-bottom-right&gt;.swal2-popup{grid-column:3;grid-row:3;align-self:end;justify-self:end}.swal2-container.swal2-grow-row&gt;.swal2-popup,.swal2-container.swal2-grow-fullscreen&gt;.swal2-popup{grid-column:1/4;width:100%}.swal2-container.swal2-grow-column&gt;.swal2-popup,.swal2-container.swal2-grow-fullscreen&gt;.swal2-popup{grid-row:1/4;align-self:stretch}.swal2-container.swal2-no-transition{transition:none !important}.swal2-popup{display:none;position:relative;box-sizing:border-box;grid-template-columns:minmax(0, 100%);width:32em;max-width:100%;padding:0 0 1.25em;border:none;border-radius:5px;background:#fff;color:#545454;font-family:inherit;font-size:1rem}.swal2-popup:focus{outline:none}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-title{position:relative;max-width:100%;margin:0;padding:.8em 1em 0;color:inherit;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-actions{display:flex;z-index:1;box-sizing:border-box;flex-wrap:wrap;align-items:center;justify-content:center;width:auto;margin:1.25em auto 0;padding:0}.swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1))}.swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))}.swal2-loader{display:none;align-items:center;justify-content:center;width:2.2em;height:2.2em;margin:0 1.875em;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border-width:.25em;border-style:solid;border-radius:100%;border-color:#2778c4 rgba(0,0,0,0) #2778c4 rgba(0,0,0,0)}.swal2-styled{margin:.3125em;padding:.625em 1.1em;transition:box-shadow .1s;box-shadow:0 0 0 3px rgba(0,0,0,0);font-weight:500}.swal2-styled:not([disabled]){cursor:pointer}.swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#7066e0;color:#fff;font-size:1em}.swal2-styled.swal2-confirm:focus{box-shadow:0 0 0 3px rgba(112,102,224,.5)}.swal2-styled.swal2-deny{border:0;border-radius:.25em;background:initial;background-color:#dc3741;color:#fff;font-size:1em}.swal2-styled.swal2-deny:focus{box-shadow:0 0 0 3px rgba(220,55,65,.5)}.swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#6e7881;color:#fff;font-size:1em}.swal2-styled.swal2-cancel:focus{box-shadow:0 0 0 3px rgba(110,120,129,.5)}.swal2-styled.swal2-default-outline:focus{box-shadow:0 0 0 3px rgba(100,150,200,.5)}.swal2-styled:focus{outline:none}.swal2-styled::-moz-focus-inner{border:0}.swal2-footer{justify-content:center;margin:1em 0 0;padding:1em 1em 0;border-top:1px solid #eee;color:inherit;font-size:1em}.swal2-timer-progress-bar-container{position:absolute;right:0;bottom:0;left:0;grid-column:auto !important;overflow:hidden;border-bottom-right-radius:5px;border-bottom-left-radius:5px}.swal2-timer-progress-bar{width:100%;height:.25em;background:rgba(0,0,0,.2)}.swal2-image{max-width:100%;margin:2em auto 1em}.swal2-close{z-index:2;align-items:center;justify-content:center;width:1.2em;height:1.2em;margin-top:0;margin-right:0;margin-bottom:-1.2em;padding:0;overflow:hidden;transition:color .1s,box-shadow .1s;border:none;border-radius:5px;background:rgba(0,0,0,0);color:#ccc;font-family:monospace;font-size:2.5em;cursor:pointer;justify-self:end}.swal2-close:hover{transform:none;background:rgba(0,0,0,0);color:#f27474}.swal2-close:focus{outline:none;box-shadow:inset 0 0 0 3px rgba(100,150,200,.5)}.swal2-close::-moz-focus-inner{border:0}.swal2-html-container{z-index:1;justify-content:center;margin:1em 1.6em .3em;padding:0;overflow:auto;color:inherit;font-size:1.125em;font-weight:normal;line-height:normal;text-align:center;word-wrap:break-word;word-break:break-word}.swal2-input,.swal2-file,.swal2-textarea,.swal2-select,.swal2-radio,.swal2-checkbox{margin:1em 2em 3px}.swal2-input,.swal2-file,.swal2-textarea{box-sizing:border-box;width:auto;transition:border-color .1s,box-shadow .1s;border:1px solid #d9d9d9;border-radius:.1875em;background:rgba(0,0,0,0);box-shadow:inset 0 1px 1px rgba(0,0,0,.06),0 0 0 3px rgba(0,0,0,0);color:inherit;font-size:1.125em}.swal2-input.swal2-inputerror,.swal2-file.swal2-inputerror,.swal2-textarea.swal2-inputerror{border-color:#f27474 !important;box-shadow:0 0 2px #f27474 !important}.swal2-input:focus,.swal2-file:focus,.swal2-textarea:focus{border:1px solid #b4dbed;outline:none;box-shadow:inset 0 1px 1px rgba(0,0,0,.06),0 0 0 3px rgba(100,150,200,.5)}.swal2-input::placeholder,.swal2-file::placeholder,.swal2-textarea::placeholder{color:#ccc}.swal2-range{margin:1em 2em 3px;background:#fff}.swal2-range input{width:80%}.swal2-range output{width:20%;color:inherit;font-weight:600;text-align:center}.swal2-range input,.swal2-range output{height:2.625em;padding:0;font-size:1.125em;line-height:2.625em}.swal2-input{height:2.625em;padding:0 .75em}.swal2-file{width:75%;margin-right:auto;margin-left:auto;background:rgba(0,0,0,0);font-size:1.125em}.swal2-textarea{height:6.75em;padding:.75em}.swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;background:rgba(0,0,0,0);color:inherit;font-size:1.125em}.swal2-radio,.swal2-checkbox{align-items:center;justify-content:center;background:#fff;color:inherit}.swal2-radio label,.swal2-checkbox label{margin:0 .6em;font-size:1.125em}.swal2-radio input,.swal2-checkbox input{flex-shrink:0;margin:0 .4em}.swal2-input-label{display:flex;justify-content:center;margin:1em auto 0}.swal2-validation-message{align-items:center;justify-content:center;margin:1em 0 0;padding:.625em;overflow:hidden;background:#f0f0f0;color:#666;font-size:1em;font-weight:300}.swal2-validation-message::before{content:"!";display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center}.swal2-icon{position:relative;box-sizing:content-box;justify-content:center;width:5em;height:5em;margin:2.5em auto .6em;border:0.25em solid rgba(0,0,0,0);border-radius:50%;border-color:#000;font-family:inherit;line-height:5em;cursor:default;user-select:none}.swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474;color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;transform:rotate(-45deg)}.swal2-icon.swal2-error.swal2-icon-show{animation:swal2-animate-error-icon .5s}.swal2-icon.swal2-error.swal2-icon-show .swal2-x-mark{animation:swal2-animate-error-x-mark .5s}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-warning.swal2-icon-show{animation:swal2-animate-error-icon .5s}.swal2-icon.swal2-warning.swal2-icon-show .swal2-icon-content{animation:swal2-animate-i-mark .5s}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-info.swal2-icon-show{animation:swal2-animate-error-icon .5s}.swal2-icon.swal2-info.swal2-icon-show .swal2-icon-content{animation:swal2-animate-i-mark .8s}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-question.swal2-icon-show{animation:swal2-animate-error-icon .5s}.swal2-icon.swal2-question.swal2-icon-show .swal2-icon-content{animation:swal2-animate-question-mark .8s}.swal2-icon.swal2-success{border-color:#a5dc86;color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-0.4375em;left:-2.0635em;transform:rotate(-45deg);transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-0.6875em;left:1.875em;transform:rotate(-45deg);transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;z-index:2;top:-0.25em;left:-0.25em;box-sizing:content-box;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;z-index:1;top:.5em;left:1.625em;width:.4375em;height:5.625em;transform:rotate(-45deg)}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;z-index:2;height:.3125em;border-radius:.125em;background-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.8125em;width:1.5625em;transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;transform:rotate(-45deg)}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-tip{animation:swal2-animate-success-line-tip .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-long{animation:swal2-animate-success-line-long .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-circular-line-right{animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-progress-steps{flex-wrap:wrap;align-items:center;max-width:100%;margin:1.25em auto;padding:0;background:rgba(0,0,0,0);font-weight:600}.swal2-progress-steps li{display:inline-block;position:relative}.swal2-progress-steps .swal2-progress-step{z-index:20;flex-shrink:0;width:2em;height:2em;border-radius:2em;background:#2778c4;color:#fff;line-height:2em;text-align:center}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step{background:#2778c4}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step{background:#add8e6;color:#fff}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step-line{background:#add8e6}.swal2-progress-steps .swal2-progress-step-line{z-index:10;flex-shrink:0;width:2.5em;height:.4em;margin:0 -1px;background:#2778c4}[class^=swal2]{-webkit-tap-highlight-color:rgba(0,0,0,0)}.swal2-show{animation:swal2-show .3s}.swal2-hide{animation:swal2-hide .15s forwards}.swal2-noanimation{transition:none}.swal2-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.swal2-rtl .swal2-close{margin-right:initial;margin-left:0}.swal2-rtl .swal2-timer-progress-bar{right:0;left:auto}@keyframes swal2-toast-show{0%{transform:translateY(-0.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(0.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0deg)}}@keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-0.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes swal2-show{0%{transform:scale(0.7)}45%{transform:scale(1.05)}80%{transform:scale(0.95)}100%{transform:scale(1)}}@keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(0.5);opacity:0}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-0.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(0.4);opacity:0}50%{margin-top:1.625em;transform:scale(0.4);opacity:0}80%{margin-top:-0.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0deg);opacity:1}}@keyframes swal2-rotate-loading{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes swal2-animate-question-mark{0%{transform:rotateY(-360deg)}100%{transform:rotateY(0)}}@keyframes swal2-animate-i-mark{0%{transform:rotateZ(45deg);opacity:0}25%{transform:rotateZ(-25deg);opacity:.4}50%{transform:rotateZ(15deg);opacity:.8}75%{transform:rotateZ(-5deg);opacity:1}100%{transform:rotateX(0);opacity:1}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto !important}body.swal2-no-backdrop .swal2-container{background-color:rgba(0,0,0,0) !important;pointer-events:none}body.swal2-no-backdrop .swal2-container .swal2-popup{pointer-events:all}body.swal2-no-backdrop .swal2-container .swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll !important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)&gt;[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:static !important}}body.swal2-toast-shown .swal2-container{box-sizing:border-box;width:360px;max-width:100%;background-color:rgba(0,0,0,0);pointer-events:none}body.swal2-toast-shown .swal2-container.swal2-top{inset:0 auto auto 50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{inset:0 0 auto auto}body.swal2-toast-shown .swal2-container.swal2-top-start,body.swal2-toast-shown .swal2-container.swal2-top-left{inset:0 auto auto 0}body.swal2-toast-shown .swal2-container.swal2-center-start,body.swal2-toast-shown .swal2-container.swal2-center-left{inset:50% auto auto 0;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{inset:50% auto auto 50%;transform:translate(-50%, -50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{inset:50% 0 auto auto;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-start,body.swal2-toast-shown .swal2-container.swal2-bottom-left{inset:auto auto 0 0}body.swal2-toast-shown .swal2-container.swal2-bottom{inset:auto auto 0 50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{inset:auto 0 0 auto}&lt;/style&gt;<br/>
+  &lt;style data-styled="active" data-styled-version="6.0.0-rc.1"&gt;&lt;/style&gt;<br/>
+ &lt;/head&gt; <br/>
+ &lt;body class=""&gt; <br/>
+  &lt;div id="root"&gt;<br/>
+   &lt;div&gt;<br/>
+    &lt;div class="adminLayout"&gt;<br/>
+     &lt;div class="container-fluid bg-width min-vh-100"&gt;<br/>
+      &lt;div class="row"&gt;<br/>
+       &lt;div style="width: 180px; position: fixed; top: 0px; bottom: 0px;"&gt;<br/>
+        &lt;div class="sidebar p-2 d-flex flex-column justify-content-between"&gt;<br/>
+         &lt;div class="logo d-flex justify-content-center py-4"&gt;<br/>
+          &lt;a href="/"&gt;&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAThSURBVHgBvZlxTBtVHMe/V2hppdAKY4rdpKhzOGeYIo1GF4t/+M+iI1lm/EfHEo2J08gSExeXKC4xxD/ULRET/4KQ+N+UasKfGw0SF0CRTcYmblDcGBnMFFugtIU+37v37rji6O6u132ad+/u3Xv3vvm99/u9d1cJJiCEeGm2h6ZmmmrEuX9DtYhI52kKS5IUQqGhwoI0naQpSozD2nTS5IfVsIfS1Eeso9MyofRBraRwfAKz0MZeYq3VNqOPGLUm4UM6RSzm0pVbm92a0i2yUOI6un8lLUdDuapMER4dsrDdRmMn/h8yTBNfTuP4qQF8890IhkdvYPj3mc2q+mnqQS6BhE/aICxi+NI8DnzQi9DZK2rZ2YHJXE1YGGvVFhRjXZyfZm2wQtjEP+jouYjhP2aB5Cp7OAgtl+ghHk/eqflXVEuIBvZIlkArxA1PRtHRO4Gh8TkqLC0L4kj0Zwg2zZpUgcJ6h2CCOLVQ9+Asun+eRvzfFdliTIyqjZ1JshHl8p07qvQ8lg11kFoxrFiwDSboHpnD1/3XsBjnwrRI2gNRMoIXn39I7+PZOh9WnGQ/DPLRmeto75+hFlwTSpRBJLK1xKlayvI3DtbDV12mswccYmHHRg9MqRcGaD93Ez1/RjUlJCuTsu4QSLSg7pFKfPjOczCAvGNiFgwaadVzNYbu8eiGUklVxdyBiCJliHfWVqDz830wQTObg/VGWnRcuI3lNKdyQJH4MDMvfn1fHY61NMAkfiawVm/toZsruL7InUHSHHmU40PJSyU8XbcFR16uQ+CxrciDeiawRm/tofmVTe8pka5xRwWOvPQwAo9uwczyKi4upPG41w6T+IuN1J5ZWs0So1BeUozmwAOyI1yOr6F9OonpC3/jWjSFmMOJ4w334uPdpTCDIYHrECGU4nLAXVOBHxI2xEcWQFYzSM7FEIunkPK4AQdwYmwJL2x10GTcksyLF/RW9pUWy/NMDXNOOzLVFZhJ0RUlnUEmkcLSb5NI3FhgMxLqTKWNTowtwgQLTGBEb+1AlVMsWbTj4iIQr1u9txaZR7J/HCSR5qKE47D6NNZieikDE0SYwPN6awfucyJwv0vuGHY6O4r4QpS5OovM4ASQWpOvZVHg1STh2maGlzLNehg10qL92Sq4HTaQIuEoiwlgYFzEP14kD660HoL2+0rwxVO6lzgtISbQ0Au1z21HqLkWPhf3L+mnQZ5LmvVYbGc8JTacbqrE93s98NoNbrg4YZvYGIYNNIKvzI4zB2vxri0GxJblMiLGVNkobPfY8ctrfrzyoAsmGWXalN3MjzBBX+8YP9GseMyQu6tL0f/WLtR4HMiDU+ygCOyCgXDDiC8mcfmvW1mjythe4UTP2/XwOE2GWE6EWq9LFUgvmLhPjTwhJr9bCHeVeFDxVbpwurUR5a68xEGrRX2royJPwsBcLHeXaK74GH/5ZgO2Vd6DPFGtlyVQcBg6h7qsrASNT25Trw8E/Xhml673jVywvpu0BVkChUcfhU6OvbcXZW7mCBLef/UJWMBh5XUzJ3RpaiM6GaffWz779hyxgDYYgRT2s9tGWmAG2nAPKcCHJA1TrA/kA+Ffu7qI9bBPyYbeJu+W0DBNQRQKIbRFdKSHqKjbasZiprYYGwQrf0GwpAiIiJxt5SJipTLFfx9c8Mr0E1+SAAAAAElFTkSuQmCC" alt="Logo Skuypay" class="rounded me-2" width="40"&gt;&lt;img src="/assets/skuypay-014200fb.png" alt="Skuypay" width="80"&gt;&lt;/a&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;ul class="nav nav-pills flex-column mb-auto"&gt;<br/>
+          &lt;li class="nav-item beranda-sidebar" style="margin-bottom: 24px;"&gt;&lt;a class="nav-link text-dark " href="/admin"&gt;<br/>
+            &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 24 24" class="me-2" height="20" width="20" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+             &lt;g&gt;<br/>
+              &lt;path fill="none" d="M0 0h24v24H0z"&gt;&lt;/path&gt;<br/>
+              &lt;path d="M13 21V11h8v10h-8zM3 13V3h8v10H3zm6-2V5H5v6h4zM3 21v-6h8v6H3zm2-2h4v-2H5v2zm10 0h4v-6h-4v6zM13 3h8v6h-8V3zm2 2v2h4V5h-4z"&gt;&lt;/path&gt;<br/>
+             &lt;/g&gt;<br/>
+            &lt;/svg&gt;Beranda&lt;/a&gt;&lt;/li&gt;<br/>
+          &lt;li class="transaksi-sidebar" style="margin-bottom: 24px;"&gt;&lt;a class="nav-link text-dark active" href="/admin/transaksi"&gt;<br/>
+            &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.1" viewbox="0 0 16 16" class="me-2" height="20" width="20" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+             &lt;path d="M0 13h16v2h-16zM2 9h2v3h-2zM5 5h2v7h-2zM8 8h2v4h-2zM11 2h2v10h-2z"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;Transaksi&lt;/a&gt;&lt;/li&gt;<br/>
+          &lt;li class="layanan-sidebar" style="margin-bottom: 24px;"&gt;&lt;a class="nav-link text-dark " href="/admin/layanan"&gt;<br/>
+            &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 24 24" class="me-2" height="20" width="20" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+             &lt;path fill="none" d="M0 0h24v24H0z"&gt;&lt;/path&gt;&lt;path d="M20 8h-3V6c0-1.1-.9-2-2-2H9c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v10h20V10c0-1.1-.9-2-2-2zM9 6h6v2H9V6zm11 12H4v-3h2v1h2v-1h8v1h2v-1h2v3zm-2-5v-1h-2v1H8v-1H6v1H4v-3h16v3h-2z"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;Layanan&lt;/a&gt;&lt;/li&gt;<br/>
+          &lt;li class="pengguna-sidebar" style="margin-bottom: 24px;"&gt;&lt;a class="nav-link text-dark " href="/admin/pengguna"&gt;<br/>
+            &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 24 24" class="me-2" height="20" width="20" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+             &lt;path fill="none" d="M0 0h24v24H0z"&gt;&lt;/path&gt;&lt;path d="M16.67 13.13C18.04 14.06 19 15.32 19 17v3h4v-3c0-2.18-3.57-3.47-6.33-3.87zM15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4c-.47 0-.91.1-1.33.24a5.98 5.98 0 010 7.52c.42.14.86.24 1.33.24zM9 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0-6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zM9 13c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4zm6 5H3v-.99C3.2 16.29 6.3 15 9 15s5.8 1.29 6 2v1z"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;Pengguna&lt;/a&gt;&lt;/li&gt;<br/>
+         &lt;/ul&gt;&lt;a class="keluar text-center coba list-group-item text-danger py-4"&gt;<br/>
+          &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 24 24" class="text-danger me-2 fs-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+           &lt;g&gt;<br/>
+            &lt;path fill="none" d="M0 0h24v24H0z"&gt;&lt;/path&gt;<br/>
+            &lt;path d="M5 22a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v3h-2V4H6v16h12v-2h2v3a1 1 0 0 1-1 1H5zm13-6v-3h-7v-2h7V8l5 4-5 4z"&gt;&lt;/path&gt;<br/>
+           &lt;/g&gt;<br/>
+          &lt;/svg&gt;&lt;/a&gt;&lt;a class="logout text-danger" style="text-decoration: none; cursor: pointer;"&gt;Keluar&lt;/a&gt;<br/>
+        &lt;/div&gt;<br/>
+       &lt;/div&gt;<br/>
+       &lt;div class="col" style="overflow: auto; height: 100vh; margin-left: 180px;"&gt;<br/>
+        &lt;div class="dashboard mx-4 mt-4"&gt;<br/>
+         &lt;div class="row"&gt;<br/>
+          &lt;div class="col-12"&gt;<br/>
+           &lt;div class="Transaksi"&gt;<br/>
+            &lt;h1 class="sc-HzRMQ jpPOIA mb-2"&gt;Transaksi&lt;/h1&gt;<br/>
+            &lt;div class="nav-underline nav nav-underline" role="tablist"&gt;<br/>
+             &lt;div class="nav-item"&gt;<br/>
+              &lt;a href="#" role="tab" data-rr-ui-event-key="semua" id="react-aria4098715375-1-tab-semua" aria-controls="react-aria4098715375-1-tabpane-semua" aria-selected="true" class="nav-link-underline text-dark nav-link active" tabindex="0"&gt;Semua&lt;/a&gt;<br/>
+             &lt;/div&gt;<br/>
+             &lt;div class="nav-item"&gt;<br/>
+              &lt;a role="tab" data-rr-ui-event-key="selesai" id="react-aria4098715375-1-tab-selesai" aria-controls="react-aria4098715375-1-tabpane-selesai" aria-selected="false" tabindex="-1" class="nav-link-underline text-dark nav-link" href="#"&gt;Sukses&lt;/a&gt;<br/>
+             &lt;/div&gt;<br/>
+             &lt;div class="nav-item"&gt;<br/>
+              &lt;a role="tab" data-rr-ui-event-key="proses" id="react-aria4098715375-1-tab-proses" aria-controls="react-aria4098715375-1-tabpane-proses" aria-selected="false" tabindex="-1" class="nav-link-underline text-dark nav-link" href="#"&gt;Proses&lt;/a&gt;<br/>
+             &lt;/div&gt;<br/>
+             &lt;div class="nav-item"&gt;<br/>
+              &lt;a role="tab" data-rr-ui-event-key="belumbayar" id="react-aria4098715375-1-tab-belumbayar" aria-controls="react-aria4098715375-1-tabpane-belumbayar" aria-selected="false" tabindex="-1" class="nav-link-underline text-dark nav-link" href="#"&gt;Belum Bayar&lt;/a&gt;<br/>
+             &lt;/div&gt;<br/>
+             &lt;div class="nav-item"&gt;<br/>
+              &lt;a role="tab" data-rr-ui-event-key="gagal" id="react-aria4098715375-1-tab-gagal" aria-controls="react-aria4098715375-1-tabpane-gagal" aria-selected="false" tabindex="-1" class="nav-link-underline text-dark nav-link" href="#"&gt;Gagal&lt;/a&gt;<br/>
+             &lt;/div&gt;<br/>
+            &lt;/div&gt;<br/>
+            &lt;div class="tab-content"&gt;<br/>
+             &lt;div role="tabpanel" id="react-aria4098715375-1-tabpane-semua" aria-labelledby="react-aria4098715375-1-tab-semua" class="fade home tab-pane active show"&gt;<br/>
+              &lt;div class="row justify-content-end mb-5"&gt;<br/>
+               &lt;form class="search-transaction"&gt;<br/>
+                &lt;div class="search"&gt;<br/>
+                 &lt;div class="py-3 input-group"&gt;<br/>
+                  &lt;span class="input-group-text" style="background-color: transparent; border-right: none;"&gt;<br/>
+                   &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+                    &lt;path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"&gt;&lt;/path&gt;<br/>
+                   &lt;/svg&gt;&lt;/span&gt;<br/>
+                  &lt;input placeholder="Cari berdasarkan Nama, Status, dan Jenis" aria-label="Search" name="search" class="form-control" value="" style="border-left: none;"&gt;<br/>
+                 &lt;/div&gt;<br/>
+                &lt;/div&gt;<br/>
+               &lt;/form&gt;<br/>
+              &lt;/div&gt;<br/>
+              &lt;div class="tb justify-content-around"&gt;<br/>
+               &lt;div class="table-responsive table-wrapper mt-3"&gt;<br/>
+                &lt;table class="table table-hover" id="_tableBorder_1xx2g_1" style="border-spacing: 1em;"&gt;<br/>
+                 &lt;thead class="text-dark" id="_thead_1xx2g_1" style="background-color: rgb(184, 189, 218);"&gt;<br/>
+                  &lt;tr class=""&gt;<br/>
+                   &lt;th scope="col" class="col-1 text-center"&gt;Kode&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-2"&gt;Nama&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-1"&gt;Jenis&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-2"&gt;Tanggal&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-1"&gt;Total&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-1"&gt;Status&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-4"&gt;&lt;/th&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/thead&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;WIFI-777&lt;/td&gt;<br/>
+                   &lt;td&gt;mel&lt;/td&gt;<br/>
+                   &lt;td&gt;telkom&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 797.500&lt;/td&gt;<br/>
+                   &lt;td style="color: green;"&gt;successful&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan WIFI June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;WIFI-172&lt;/td&gt;<br/>
+                   &lt;td&gt;mel&lt;/td&gt;<br/>
+                   &lt;td&gt;telkom&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 797.500&lt;/td&gt;<br/>
+                   &lt;td style="color: green;"&gt;successful&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan WIFI June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;WIFI-731&lt;/td&gt;<br/>
+                   &lt;td&gt;mel&lt;/td&gt;<br/>
+                   &lt;td&gt;telkom&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 277.500&lt;/td&gt;<br/>
+                   &lt;td style="color: green;"&gt;successful&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan WIFI June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;WIFI-484&lt;/td&gt;<br/>
+                   &lt;td&gt;mel&lt;/td&gt;<br/>
+                   &lt;td&gt;telkom&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 797.500&lt;/td&gt;<br/>
+                   &lt;td style="color: orange;"&gt;unpaid&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan WIFI June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;POSTPAID&lt;/td&gt;<br/>
+                   &lt;td&gt;usman&lt;/td&gt;<br/>
+                   &lt;td&gt;plnpost&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 89.728&lt;/td&gt;<br/>
+                   &lt;td style="color: green;"&gt;successful&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan Listrik June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;PREPAID-&lt;/td&gt;<br/>
+                   &lt;td&gt;usman&lt;/td&gt;<br/>
+                   &lt;td&gt;plnpre&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 22.500&lt;/td&gt;<br/>
+                   &lt;td style="color: orange;"&gt;unpaid&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembelian Token Listrik 20000.00 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;INSURANC&lt;/td&gt;<br/>
+                   &lt;td&gt;arby&lt;/td&gt;<br/>
+                   &lt;td&gt;bpjsks&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 152.500&lt;/td&gt;<br/>
+                   &lt;td style="color: red;"&gt;fail&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan asuransi June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;WIFI-172&lt;/td&gt;<br/>
+                   &lt;td&gt;iyan yan&lt;/td&gt;<br/>
+                   &lt;td&gt;telkom&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 277.500&lt;/td&gt;<br/>
+                   &lt;td style="color: orange;"&gt;unpaid&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan WIFI June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;POSTPAID&lt;/td&gt;<br/>
+                   &lt;td&gt;usman&lt;/td&gt;<br/>
+                   &lt;td&gt;plnpost&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 121.774&lt;/td&gt;<br/>
+                   &lt;td style="color: green;"&gt;successful&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan Listrik June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;INSURANC&lt;/td&gt;<br/>
+                   &lt;td&gt;mel&lt;/td&gt;<br/>
+                   &lt;td&gt;bpjsks&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 100.500&lt;/td&gt;<br/>
+                   &lt;td style="color: green;"&gt;successful&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan asuransi June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                &lt;/table&gt;<br/>
+               &lt;/div&gt;<br/>
+               &lt;div class="row d-flex align-items-center pagination pt-3"&gt;<br/>
+                &lt;div class="col-4 text-start"&gt;<br/>
+                 &lt;button class="btn-pagination" type="button" disabled&gt;<br/>
+                  &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" class="icon-prev" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+                   &lt;path d="M217.9 256L345 129c9.4-9.4 9.4-24.6 0-33.9-9.4-9.4-24.6-9.3-34 0L167 239c-9.1 9.1-9.3 23.7-.7 33.1L310.9 417c4.7 4.7 10.9 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9L217.9 256z"&gt;&lt;/path&gt;<br/>
+                  &lt;/svg&gt;Sebelumnya&lt;/button&gt;<br/>
+                &lt;/div&gt;<br/>
+                &lt;div class="col-4"&gt;<br/>
+                 &lt;p class="text-center my-auto page-title"&gt;Halaman 1&lt;/p&gt;<br/>
+                &lt;/div&gt;<br/>
+                &lt;div class="col-4 text-end"&gt;<br/>
+                 &lt;button class="btn-pagination" type="button"&gt;Berikutnya<br/>
+                  &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" class="icon-next" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+                   &lt;path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"&gt;&lt;/path&gt;<br/>
+                  &lt;/svg&gt;&lt;/button&gt;<br/>
+                &lt;/div&gt;<br/>
+               &lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+             &lt;/div&gt;<br/>
+             &lt;div role="tabpanel" id="react-aria4098715375-1-tabpane-selesai" aria-labelledby="react-aria4098715375-1-tab-selesai" class="fade selesai tab-pane"&gt;<br/>
+              &lt;div class="tb justify-content-around"&gt;<br/>
+               &lt;div class="row justify-content-end mb-5"&gt;<br/>
+                &lt;form class="search-transaction"&gt;<br/>
+                 &lt;div class="search"&gt;<br/>
+                  &lt;div class="py-3 input-group"&gt;<br/>
+                   &lt;span class="input-group-text" style="background-color: transparent; border-right: none;"&gt;<br/>
+                    &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+                     &lt;path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"&gt;&lt;/path&gt;<br/>
+                    &lt;/svg&gt;&lt;/span&gt;<br/>
+                   &lt;input placeholder="Cari berdasarkan Nama, dan Jenis" aria-label="Search" name="search" class="form-control" value="" style="border-left: none;"&gt;<br/>
+                  &lt;/div&gt;<br/>
+                 &lt;/div&gt;<br/>
+                &lt;/form&gt;<br/>
+               &lt;/div&gt;<br/>
+               &lt;div class="table-responsive table-wrapper mt-3"&gt;<br/>
+                &lt;table class="table table-hover" id="_tableBorder_1xx2g_1" style="border-spacing: 1em;"&gt;<br/>
+                 &lt;thead class="text-dark" id="_thead_1xx2g_1" style="background-color: rgb(184, 189, 218);"&gt;<br/>
+                  &lt;tr class="" style="font-size: 16px;"&gt;<br/>
+                   &lt;th scope="col" class="col-1 text-center"&gt;Kode&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-2"&gt;Nama&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-1"&gt;Jenis&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-2"&gt;Tanggal&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-1"&gt;Total&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-1"&gt;Status&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-4"&gt;&lt;/th&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/thead&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;WIFI-7778&lt;/td&gt;<br/>
+                   &lt;td&gt;mel&lt;/td&gt;<br/>
+                   &lt;td&gt;telkom&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 797.500&lt;/td&gt;<br/>
+                   &lt;td class="text-success"&gt;successful&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan WIFI June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;WIFI-1724&lt;/td&gt;<br/>
+                   &lt;td&gt;mel&lt;/td&gt;<br/>
+                   &lt;td&gt;telkom&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 797.500&lt;/td&gt;<br/>
+                   &lt;td class="text-success"&gt;successful&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan WIFI June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;WIFI-7319&lt;/td&gt;<br/>
+                   &lt;td&gt;mel&lt;/td&gt;<br/>
+                   &lt;td&gt;telkom&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 277.500&lt;/td&gt;<br/>
+                   &lt;td class="text-success"&gt;successful&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan WIFI June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;POSTPAID-&lt;/td&gt;<br/>
+                   &lt;td&gt;usman&lt;/td&gt;<br/>
+                   &lt;td&gt;plnpost&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 89.728&lt;/td&gt;<br/>
+                   &lt;td class="text-success"&gt;successful&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan Listrik June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;POSTPAID-&lt;/td&gt;<br/>
+                   &lt;td&gt;usman&lt;/td&gt;<br/>
+                   &lt;td&gt;plnpost&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 121.774&lt;/td&gt;<br/>
+                   &lt;td class="text-success"&gt;successful&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan Listrik June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;INSURANCE&lt;/td&gt;<br/>
+                   &lt;td&gt;mel&lt;/td&gt;<br/>
+                   &lt;td&gt;bpjsks&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 100.500&lt;/td&gt;<br/>
+                   &lt;td class="text-success"&gt;successful&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan asuransi June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;INSURANCE&lt;/td&gt;<br/>
+                   &lt;td&gt;mel&lt;/td&gt;<br/>
+                   &lt;td&gt;bpjsks&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 102.500&lt;/td&gt;<br/>
+                   &lt;td class="text-success"&gt;successful&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan asuransi June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;bc6e199a-&lt;/td&gt;<br/>
+                   &lt;td&gt;25000&lt;/td&gt;<br/>
+                   &lt;td&gt;pulsa&lt;/td&gt;<br/>
+                   &lt;td&gt;23 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 28.500&lt;/td&gt;<br/>
+                   &lt;td class="text-success"&gt;successful&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembelian Pulsa Paket Data pulsa &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;31495964-&lt;/td&gt;<br/>
+                   &lt;td&gt;25000&lt;/td&gt;<br/>
+                   &lt;td&gt;pulsa&lt;/td&gt;<br/>
+                   &lt;td&gt;23 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 28.500&lt;/td&gt;<br/>
+                   &lt;td class="text-success"&gt;successful&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembelian Pulsa Paket Data pulsa &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;9f4df3db-&lt;/td&gt;<br/>
+                   &lt;td&gt;25000&lt;/td&gt;<br/>
+                   &lt;td&gt;pulsa&lt;/td&gt;<br/>
+                   &lt;td&gt;23 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 28.500&lt;/td&gt;<br/>
+                   &lt;td class="text-success"&gt;successful&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembelian Pulsa Paket Data pulsa &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                &lt;/table&gt;<br/>
+               &lt;/div&gt;<br/>
+               &lt;div class="row d-flex align-items-center pagination pt-3"&gt;<br/>
+                &lt;div class="col-4 text-start"&gt;<br/>
+                 &lt;button class="btn-pagination" disabled type="button"&gt;<br/>
+                  &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" class="icon-prev" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+                   &lt;path d="M217.9 256L345 129c9.4-9.4 9.4-24.6 0-33.9-9.4-9.4-24.6-9.3-34 0L167 239c-9.1 9.1-9.3 23.7-.7 33.1L310.9 417c4.7 4.7 10.9 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9L217.9 256z"&gt;&lt;/path&gt;<br/>
+                  &lt;/svg&gt;Sebelumnya&lt;/button&gt;<br/>
+                &lt;/div&gt;<br/>
+                &lt;div class="col-4"&gt;<br/>
+                 &lt;p class="text-center my-auto page-title"&gt;Halaman 1&lt;/p&gt;<br/>
+                &lt;/div&gt;<br/>
+                &lt;div class="col-4 text-end"&gt;<br/>
+                 &lt;button class="btn-pagination" type="button"&gt;Berikutnya<br/>
+                  &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" class="icon-next" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+                   &lt;path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"&gt;&lt;/path&gt;<br/>
+                  &lt;/svg&gt;&lt;/button&gt;<br/>
+                &lt;/div&gt;<br/>
+               &lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+             &lt;/div&gt;<br/>
+             &lt;div role="tabpanel" id="react-aria4098715375-1-tabpane-proses" aria-labelledby="react-aria4098715375-1-tab-proses" class="fade proses tab-pane"&gt;<br/>
+              &lt;div class="tb justify-content-around"&gt;<br/>
+               &lt;div class="row justify-content-end mb-5"&gt;<br/>
+                &lt;form class="search-transaction"&gt;<br/>
+                 &lt;div class="search"&gt;<br/>
+                  &lt;div class="py-3 input-group"&gt;<br/>
+                   &lt;span class="input-group-text" style="background-color: transparent; border-right: none;"&gt;<br/>
+                    &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+                     &lt;path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"&gt;&lt;/path&gt;<br/>
+                    &lt;/svg&gt;&lt;/span&gt;<br/>
+                   &lt;input placeholder="Cari berdasarkan Nama, dan Jenis" aria-label="Search" name="search" class="form-control" value="" style="border-left: none;"&gt;<br/>
+                  &lt;/div&gt;<br/>
+                 &lt;/div&gt;<br/>
+                &lt;/form&gt;<br/>
+               &lt;/div&gt;<br/>
+               &lt;div class="table-responsive table-wrapper mt-3"&gt;<br/>
+                &lt;table class="table table-hover" id="_tableBorder_1xx2g_1" style="border-spacing: 1em;"&gt;<br/>
+                 &lt;thead class="text-dark" id="_thead_1xx2g_1" style="background-color: rgb(184, 189, 218);"&gt;<br/>
+                  &lt;tr class="" style="font-size: 16px;"&gt;<br/>
+                   &lt;th scope="col" class="col-1 text-center"&gt;Kode&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-2"&gt;Nama&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-1"&gt;Jenis&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-2"&gt;Tanggal&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-1"&gt;Total&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-1"&gt;Status&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-4"&gt;&lt;/th&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/thead&gt;<br/>
+                 &lt;tbody&gt;<br/>
+                  &lt;tr&gt;<br/>
+                   &lt;td colspan="7" class="text-center fst-italic fs-5 py-3"&gt;Transaksi tidak ada&lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                &lt;/table&gt;<br/>
+               &lt;/div&gt;<br/>
+               &lt;div class="row d-flex align-items-center pagination pt-3"&gt;<br/>
+                &lt;div class="col-4 text-start"&gt;<br/>
+                 &lt;button class="btn-pagination" disabled type="button"&gt;<br/>
+                  &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" class="icon-prev" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+                   &lt;path d="M217.9 256L345 129c9.4-9.4 9.4-24.6 0-33.9-9.4-9.4-24.6-9.3-34 0L167 239c-9.1 9.1-9.3 23.7-.7 33.1L310.9 417c4.7 4.7 10.9 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9L217.9 256z"&gt;&lt;/path&gt;<br/>
+                  &lt;/svg&gt;Sebelumnya&lt;/button&gt;<br/>
+                &lt;/div&gt;<br/>
+                &lt;div class="col-4"&gt;<br/>
+                 &lt;p class="text-center my-auto page-title"&gt;Halaman 1&lt;/p&gt;<br/>
+                &lt;/div&gt;<br/>
+                &lt;div class="col-4 text-end"&gt;<br/>
+                 &lt;button class="btn-pagination" type="button" disabled&gt;Berikutnya<br/>
+                  &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" class="icon-next" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+                   &lt;path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"&gt;&lt;/path&gt;<br/>
+                  &lt;/svg&gt;&lt;/button&gt;<br/>
+                &lt;/div&gt;<br/>
+               &lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+             &lt;/div&gt;<br/>
+             &lt;div role="tabpanel" id="react-aria4098715375-1-tabpane-belumbayar" aria-labelledby="react-aria4098715375-1-tab-belumbayar" class="fade belumbayar tab-pane"&gt;<br/>
+              &lt;div class="tb justify-content-around"&gt;<br/>
+               &lt;div class="row justify-content-end mb-5"&gt;<br/>
+                &lt;form class="search-transaction"&gt;<br/>
+                 &lt;div class="search"&gt;<br/>
+                  &lt;div class="py-3 input-group"&gt;<br/>
+                   &lt;span class="input-group-text" style="background-color: transparent; border-right: none;"&gt;<br/>
+                    &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+                     &lt;path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"&gt;&lt;/path&gt;<br/>
+                    &lt;/svg&gt;&lt;/span&gt;<br/>
+                   &lt;input placeholder="Cari berdasarkan Nama, dan Jenis" aria-label="Search" name="search" class="form-control" value="" style="border-left: none;"&gt;<br/>
+                  &lt;/div&gt;<br/>
+                 &lt;/div&gt;<br/>
+                &lt;/form&gt;<br/>
+               &lt;/div&gt;<br/>
+               &lt;div class="table-responsive table-wrapper mt-3"&gt;<br/>
+                &lt;table class="table table-hover" id="_tableBorder_1xx2g_1" style="border-spacing: 1em;"&gt;<br/>
+                 &lt;thead class="text-dark" id="_thead_1xx2g_1" style="background-color: rgb(184, 189, 218);"&gt;<br/>
+                  &lt;tr class="" style="font-size: 16px;"&gt;<br/>
+                   &lt;th scope="col" class="col-1 text-center"&gt;Kode&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-2"&gt;Nama&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-1"&gt;Jenis&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-2"&gt;Tanggal&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-1"&gt;Total&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-1"&gt;Status&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-4"&gt;&lt;/th&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/thead&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;WIFI-4841&lt;/td&gt;<br/>
+                   &lt;td&gt;mel&lt;/td&gt;<br/>
+                   &lt;td&gt;telkom&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 797.500&lt;/td&gt;<br/>
+                   &lt;td style="color: orange;"&gt;unpaid&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan WIFI June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;PREPAID-8&lt;/td&gt;<br/>
+                   &lt;td&gt;usman&lt;/td&gt;<br/>
+                   &lt;td&gt;plnpre&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 22.500&lt;/td&gt;<br/>
+                   &lt;td style="color: orange;"&gt;unpaid&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembelian Token Listrik 20000.00 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;WIFI-1727&lt;/td&gt;<br/>
+                   &lt;td&gt;iyan yan&lt;/td&gt;<br/>
+                   &lt;td&gt;telkom&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 277.500&lt;/td&gt;<br/>
+                   &lt;td style="color: orange;"&gt;unpaid&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan WIFI June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;INSURANCE&lt;/td&gt;<br/>
+                   &lt;td&gt;mel&lt;/td&gt;<br/>
+                   &lt;td&gt;bpjsks&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 102.500&lt;/td&gt;<br/>
+                   &lt;td style="color: orange;"&gt;unpaid&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan asuransi June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;INSURANCE&lt;/td&gt;<br/>
+                   &lt;td&gt;mel&lt;/td&gt;<br/>
+                   &lt;td&gt;bpjsks&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 152.500&lt;/td&gt;<br/>
+                   &lt;td style="color: orange;"&gt;unpaid&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan asuransi June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;PREPAID-6&lt;/td&gt;<br/>
+                   &lt;td&gt;usman&lt;/td&gt;<br/>
+                   &lt;td&gt;plnpre&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 22.500&lt;/td&gt;<br/>
+                   &lt;td style="color: orange;"&gt;unpaid&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembelian Token Listrik 20000.00 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;INSURANCE&lt;/td&gt;<br/>
+                   &lt;td&gt;mel&lt;/td&gt;<br/>
+                   &lt;td&gt;bpjsks&lt;/td&gt;<br/>
+                   &lt;td&gt;23 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 152.500&lt;/td&gt;<br/>
+                   &lt;td style="color: orange;"&gt;unpaid&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan asuransi June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;WIFI-9112&lt;/td&gt;<br/>
+                   &lt;td&gt;ahmad alif fauzan&lt;/td&gt;<br/>
+                   &lt;td&gt;telkom&lt;/td&gt;<br/>
+                   &lt;td&gt;23 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 797.500&lt;/td&gt;<br/>
+                   &lt;td style="color: orange;"&gt;unpaid&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan WIFI June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;WIFI-9870&lt;/td&gt;<br/>
+                   &lt;td&gt;ahmad alif fauzan&lt;/td&gt;<br/>
+                   &lt;td&gt;telkom&lt;/td&gt;<br/>
+                   &lt;td&gt;23 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 447.500&lt;/td&gt;<br/>
+                   &lt;td style="color: orange;"&gt;unpaid&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan WIFI June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;POSTPAID-&lt;/td&gt;<br/>
+                   &lt;td&gt;iyan yan&lt;/td&gt;<br/>
+                   &lt;td&gt;plnpost&lt;/td&gt;<br/>
+                   &lt;td&gt;23 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 129.610&lt;/td&gt;<br/>
+                   &lt;td style="color: orange;"&gt;unpaid&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan Listrik June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                &lt;/table&gt;<br/>
+               &lt;/div&gt;<br/>
+               &lt;div class="row d-flex align-items-center pagination pt-3"&gt;<br/>
+                &lt;div class="col-4 text-start"&gt;<br/>
+                 &lt;button class="btn-pagination" disabled type="button"&gt;<br/>
+                  &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" class="icon-prev" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+                   &lt;path d="M217.9 256L345 129c9.4-9.4 9.4-24.6 0-33.9-9.4-9.4-24.6-9.3-34 0L167 239c-9.1 9.1-9.3 23.7-.7 33.1L310.9 417c4.7 4.7 10.9 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9L217.9 256z"&gt;&lt;/path&gt;<br/>
+                  &lt;/svg&gt;Sebelumnya&lt;/button&gt;<br/>
+                &lt;/div&gt;<br/>
+                &lt;div class="col-4"&gt;<br/>
+                 &lt;p class="text-center my-auto page-title"&gt;Halaman 1&lt;/p&gt;<br/>
+                &lt;/div&gt;<br/>
+                &lt;div class="col-4 text-end"&gt;<br/>
+                 &lt;button class="btn-pagination" type="button"&gt;Berikutnya<br/>
+                  &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" class="icon-next" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+                   &lt;path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"&gt;&lt;/path&gt;<br/>
+                  &lt;/svg&gt;&lt;/button&gt;<br/>
+                &lt;/div&gt;<br/>
+               &lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+             &lt;/div&gt;<br/>
+             &lt;div role="tabpanel" id="react-aria4098715375-1-tabpane-gagal" aria-labelledby="react-aria4098715375-1-tab-gagal" class="fade gagal tab-pane"&gt;<br/>
+              &lt;div class="tb justify-content-around"&gt;<br/>
+               &lt;div class="row justify-content-end mb-5"&gt;<br/>
+                &lt;form class="search-transaction"&gt;<br/>
+                 &lt;div class="search"&gt;<br/>
+                  &lt;div class="py-3 input-group"&gt;<br/>
+                   &lt;span class="input-group-text" style="background-color: transparent; border-right: none;"&gt;<br/>
+                    &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+                     &lt;path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"&gt;&lt;/path&gt;<br/>
+                    &lt;/svg&gt;&lt;/span&gt;<br/>
+                   &lt;input placeholder="Cari berdasarkan Nama, dan Jenis" aria-label="Search" name="search" class="form-control" value="" style="border-left: none;"&gt;<br/>
+                  &lt;/div&gt;<br/>
+                 &lt;/div&gt;<br/>
+                &lt;/form&gt;<br/>
+               &lt;/div&gt;<br/>
+               &lt;div class="table-responsive table-wrapper mt-3"&gt;<br/>
+                &lt;table class="table table-hover" id="_tableBorder_1xx2g_1" style="border-spacing: 1em;"&gt;<br/>
+                 &lt;thead class="text-dark" id="_thead_1xx2g_1" style="background-color: rgb(184, 189, 218);"&gt;<br/>
+                  &lt;tr class="" style="font-size: 16px;"&gt;<br/>
+                   &lt;th scope="col" class="col-1 text-center"&gt;Kode&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-2"&gt;Nama&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-1"&gt;Jenis&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-2"&gt;Tanggal&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-1"&gt;Total&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-1"&gt;Status&lt;/th&gt;<br/>
+                   &lt;th scope="col" class="col-4"&gt;&lt;/th&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/thead&gt;<br/>
+                 &lt;tbody id="table-body"&gt;<br/>
+                  &lt;tr class="row-transaction" id="_rowTransaction_1xx2g_1" style="font-size: 16px;"&gt;<br/>
+                   &lt;td class="text-center"&gt;INSURANCE&lt;/td&gt;<br/>
+                   &lt;td&gt;arby&lt;/td&gt;<br/>
+                   &lt;td&gt;bpjsks&lt;/td&gt;<br/>
+                   &lt;td&gt;24 Juni 2023&lt;/td&gt;<br/>
+                   &lt;td&gt;Rp. 152.500&lt;/td&gt;<br/>
+                   &lt;td style="color: rgb(255, 0, 0);"&gt;fail&lt;/td&gt;<br/>
+                   &lt;td class="text-align-justify" style="overflow-wrap: break-word;"&gt;Pembayaran Tagihan asuransi June-2023 &lt;/td&gt;<br/>
+                  &lt;/tr&gt;<br/>
+                 &lt;/tbody&gt;<br/>
+                &lt;/table&gt;<br/>
+               &lt;/div&gt;<br/>
+               &lt;div class="row d-flex align-items-center pagination pt-3"&gt;<br/>
+                &lt;div class="col-4 text-start"&gt;<br/>
+                 &lt;button class="btn-pagination" disabled type="button"&gt;<br/>
+                  &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" class="icon-prev" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+                   &lt;path d="M217.9 256L345 129c9.4-9.4 9.4-24.6 0-33.9-9.4-9.4-24.6-9.3-34 0L167 239c-9.1 9.1-9.3 23.7-.7 33.1L310.9 417c4.7 4.7 10.9 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9L217.9 256z"&gt;&lt;/path&gt;<br/>
+                  &lt;/svg&gt;Sebelumnya&lt;/button&gt;<br/>
+                &lt;/div&gt;<br/>
+                &lt;div class="col-4"&gt;<br/>
+                 &lt;p class="text-center my-auto page-title"&gt;Halaman 1&lt;/p&gt;<br/>
+                &lt;/div&gt;<br/>
+                &lt;div class="col-4 text-end"&gt;<br/>
+                 &lt;button class="btn-pagination" type="button"&gt;Berikutnya<br/>
+                  &lt;svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" class="icon-next" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+                   &lt;path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"&gt;&lt;/path&gt;<br/>
+                  &lt;/svg&gt;&lt;/button&gt;<br/>
+                &lt;/div&gt;<br/>
+               &lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+             &lt;/div&gt;<br/>
+            &lt;/div&gt;<br/>
+           &lt;/div&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+       &lt;/div&gt;<br/>
+      &lt;/div&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+   &lt;/div&gt;<br/>
+  &lt;/div&gt; <br/>
+ &lt;/body&gt;<br/>
+&lt;/html&gt;</code></pre></div></body></html>

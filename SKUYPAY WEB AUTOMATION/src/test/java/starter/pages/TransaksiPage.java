@@ -19,7 +19,7 @@ public class TransaksiPage extends PageObject {
         return By.xpath("//button[@class=\"col-12 button-login mt-4\" and @type=\"button\"]");
     }
     private By transaksimenu() {
-        return By.xpath("//a[@class='nav-link text-dark active']");
+        return By.xpath("//a[normalize-space()='Transaksi']");
     }
     private By itemsemua() {
         return By.xpath("//a[@data-rr-ui-event-key='semua']");

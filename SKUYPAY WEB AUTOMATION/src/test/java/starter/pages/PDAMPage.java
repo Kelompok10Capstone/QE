@@ -4,6 +4,7 @@ import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.interactions.Actions;
 
 public class PDAMPage extends PageObject {
 
@@ -54,20 +55,23 @@ public class PDAMPage extends PageObject {
         return By.xpath("//input[@placeholder='Cari Nama PDAM']");
     }
     private By iconedit() {
-        return By.xpath("//tbody[1]/tr[1]/td[4]/a[1]//*[name()='svg']");
+        return By.xpath("(//*[name()='svg'][@stroke='currentColor'])[8]");
     }
 
     private By popupberhasildiubah() {
         return By.xpath("//div[@class=\"swa12-container swa12-center swa12-backdrop-show\"]");
     }
+    private By dialog() {
+        return By.xpath("(//div[@role='dialog'])[1]");
+    }
     private By iconhapus() {
-        return By.xpath("//tbody[2]/tr[1]/td[4]/a[2]//*[name()='svg']//*[name()='path' and contains(@fill-rule,'evenodd')]");
+        return By.xpath("(//*[name()='svg'][@stroke='currentColor'])[9]");
     }
     private By buttonhapus() {
-        return By.xpath("//button[@class=\"swal2-confirm delete-confirmButton swal2-styled\"]");
+        return By.xpath("/html/body/div[2]/div/div[6]/button[3]");
     }
     private By buttonbatal() {
-        return By.xpath("//button[@class=\"swal2-cancel delete-cancelButton swal2-styled\"]");
+        return By.xpath("/html/body/div[2]/div/div[6]/button[1]");
     }
     //=============================================== Functional ======================================================
     @Step
@@ -159,24 +163,31 @@ public class PDAMPage extends PageObject {
         $(cariPDAMfield()).sendKeys(Keys.ENTER);
         Thread.sleep(1500);
     }
+
     @Step
-    public void klikiconeditPDAM() throws InterruptedException  {
-        $(iconedit()).click();
-        Thread.sleep(1500);
+    public void klikiconeditPDAM() throws InterruptedException {
+        Actions builder = new Actions(getDriver());
+        Actions hoverOverLocationSelector = builder.moveToElement(getDriver().findElement(By.xpath("//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[4]")));
+        hoverOverLocationSelector.perform();
+        $(iconedit()).click(); Thread.sleep(1500);
     }
-    @Step
+
+@Step
     public void klikbuttonsimpandanmunculpopupberhasildirubah() throws InterruptedException  {
         $(buttonsimpan()).click();$(popupberhasildiubah()).isVisible();
         Thread.sleep(1500);
     }
     @Step
     public void klikiconhapusPDAM() throws InterruptedException  {
+        Actions builder = new Actions(getDriver());
+        Actions hoverOverLocationSelector = builder.moveToElement(getDriver().findElement(By.xpath("//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[4]")));
+        hoverOverLocationSelector.perform();
         $(iconhapus()).click();
         Thread.sleep(1500);
     }
     @Step
     public void klikbuttonhapus() throws InterruptedException {
-        $(buttonhapus()).click();
+        $(dialog()).waitUntilVisible();$(buttonhapus()).click();
         Thread.sleep(1500);
     }
     @Step

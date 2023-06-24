@@ -1,2 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Layanan BPJS","Admin berhasil menambahkan produk BPJS","FAILURE","2023-06-24T00:43:02.8319122+07:00[Asia/Jakarta]","0.0","27.49"
+"Transaksi","Admin dapat melihat semua riwayat transaksi yang difilter hanya status selesai saja","FAILURE","2023-06-24T22:20:50.0148058+07:00[Asia/Jakarta]","0.0","16.13"
+"Transaksi","Admin dapat mencari transaksi","FAILURE","2023-06-24T22:21:30.7157705+07:00[Asia/Jakarta]","0.0","16.78"
