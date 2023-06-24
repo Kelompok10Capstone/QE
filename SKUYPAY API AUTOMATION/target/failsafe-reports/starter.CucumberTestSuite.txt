@@ -1,28 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: starter.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 20, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 34.263 s <<< FAILURE! - in starter.CucumberTestSuite
-Insurance (BPJS) untuk Insurance Biil Inquiry.User berhasil mengecek data status BPJS nya(Insurance   Time elapsed: 8.338 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <200> but was <500>.
-
-
-Insurance Pay Bill.User berhasil membayar tagihan BPJS  Time elapsed: 0.535 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <202> but was <500>.
-
-
-Internet Pay Bill.User berhasil membayar WiFi  Time elapsed: 0.472 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <202> but was <500>.
-
-
-Update Image.User belum berhasil mengubah gambar profil karena format gambar invalid  Time elapsed: 1.013 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <400> but was <200>.
-
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.206 s - in starter.CucumberTestSuite

@@ -1,2 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Get PDAM By Id","User berhasil mendapat data PDAM dari id","SUCCESS","2023-06-23T05:56:00.2409683+07:00[Asia/Jakarta]","0.0","0.44"
+"Get PDAM By Id","User belum berhasil mendapat data PDAM dari id karena menggunakan id yang salah","SUCCESS","2023-06-24T18:21:47.8652405+07:00[Asia/Jakarta]","0.0","0.63"
+"Get PDAM By Id","User belum berhasil mendapat data PDAM dari id karena tidak menggunakan id","SUCCESS","2023-06-24T18:21:48.5828358+07:00[Asia/Jakarta]","0.0","0.42"
+"Get PDAM By Id","User belum berhasil mendapat data PDAM dari id karena tidak login","SUCCESS","2023-06-24T18:21:49.0518408+07:00[Asia/Jakarta]","0.0","0.18"

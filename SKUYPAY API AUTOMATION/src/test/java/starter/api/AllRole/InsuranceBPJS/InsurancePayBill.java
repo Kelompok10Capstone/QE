@@ -39,7 +39,7 @@ public class InsurancePayBill {
     @Step("I send HTTP request")
     public void sendHTTPRequest() {
         String body = "{\n" +
-                "    \"partner_tx_id\": \"insurance-7967582979639432\",\n" +
+                "    \"partner_tx_id\": \"INSURANCE-9589381852025897\",\n" +
                 "}";
         JSONObject reqBody = new JSONObject(body);
         SerenityRest.
@@ -58,4 +58,59 @@ public class InsurancePayBill {
     }
     @Step("I received valid data message success")
     public void iReceivedValidDataMessageSuccess() {
-        restAssuredThat(response -> response.body("metadata.message", equalTo("Succesfully pay bill")));}}
+        restAssuredThat(response -> response.body("metadata.message", equalTo("Succesfully pay bill")));}
+    //======================================== Insurance Pay Bill 02 ==============================================
+    @Step("I send id paid HTTP request")
+    public void sendinvalidHTTPRequest() {
+        String body = "{\n" +
+                "    \"partner_tx_id\": \"INSURANCE-5447337681965024\",\n" +
+                "}";
+        JSONObject reqBody = new JSONObject(body);
+        SerenityRest.
+                given().
+                header("Authorization", "Bearer "+token).
+                header("Content-Type","application/json").
+                body(reqBody.toString()).
+                post(setAPIEndpoint());
+    }
+
+
+    @Step("I received valid HTTP response code 500")
+    public void receivedinValidHTTPResponseCode() {
+
+        restAssuredThat(response -> response.statusCode(500));
+    }
+    @Step("I received valid data eror message")
+    public void iReceivedValidDataMessageError() {
+        restAssuredThat(response -> response.body("error", equalTo("this month's bill has been paid")));
+    }
+    //================================================== Insurance Pay Bill 03 =======================================
+    @Step("I send id paid HTTP request")
+    public void sendinvalidHTTPRequestwithinvalidid() {
+        String body = "{\n" +
+                "    \"partner_tx_id\": \"INSURANCE-5447337681965029\",\n" +
+                "}";
+        JSONObject reqBody = new JSONObject(body);
+        SerenityRest.
+                given().
+                header("Authorization", "Bearer "+token).
+                header("Content-Type","application/json").
+                body(reqBody.toString()).
+                post(setAPIEndpoint());
+    }
+    @Step("I received valid data eror message")
+    public void iReceivedValidDataMessageErrorninvalidid() {
+        restAssuredThat(response -> response.body("error", equalTo("record not found")));
+    }
+    //================================================== Insurance Pay Bill 04 =======================================
+
+    @Step("I received valid HTTP response code 400")
+    public void receivedinValidHTTPResponseCodebecausenotlogin() {
+
+        restAssuredThat(response -> response.statusCode(400));
+    }
+    @Step("I received valid data eror message")
+    public void iReceivedValidDataMessageErrorbecausenotlogin() {
+        restAssuredThat(response -> response.body("message", equalTo("missing or malformed jwt")));
+    }
+}

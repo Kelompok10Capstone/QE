@@ -153,7 +153,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"Insurance bpjs","type":"capability","href":"703e71ab15afeeb72dbd5217967ca68b0a32e26abed4d135ed17a4154270187f.html","nodes":[{"text":"Insurance (BPJS) untuk Insurance Biil Inquiry","type":"feature","href":"e090ec85ce8b814b8743b4b76fbc23cd0411b2fcfdd558a2e35a4ce4f0ed4531.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027bi bi-x-circle-fill failure-icon \u0027 title\u003d\u0027FAILURE\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]},{"text":"Insurance Pay Bill","type":"feature","href":"e46056b705405ecc107991e67ff799bdb314389d97ce60b44f0473f9f4ec6268.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027bi bi-x-circle-fill failure-icon \u0027 title\u003d\u0027FAILURE\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027bi bi-x-circle-fill failure-icon \u0027 title\u003d\u0027FAILURE\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e2 features\u003c/span\u003e"]}];
+            var requirementsTree = [];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -200,7 +200,6 @@
             <span class="breadcrumbs">
             <a href='index.html'>Home</a> > <a href="capabilities.html">Requirements</a>
 
-                > <a href="eebb6e808827ab569b0d9d33c876b10c6a96bb02f45a75fecd2aeac43c6a7061.html">All Role</a>
 
 
                     > <span class="truncate-40">Insurance Bpjs</span>
@@ -231,7 +230,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 23-06-2023 05:55</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated </span>
     <br style="clear:left"/>
 </div>
 
@@ -285,9 +284,6 @@
                                                 <h3>Feature Coverage By Scenario</h3>
 
                                                 <!-- REQUIREMENTS PIE CHART -->
-                                                    <div class="chart-container" style="position: relative; width:30vw">
-                                                        <canvas id="requirementChart" width="300" height="300"></canvas>
-                                                    </div>
 
                                             </div>
                                             <div class="col-sm-8">
@@ -305,60 +301,60 @@
                                                                 <td>
                                                                     <i class="bi bi-card-checklist"></i> Number of Scenarios
                                                                 </td>
-                                                                <td>2</td>
+                                                                <td>0</td>
                                                             </tr>
                                                             <tr scope="row">
                                                                 <td>
                                                                     <i class="bi bi-caret-right"></i> Number of Test Cases
                                                                 </td>
-                                                                <td>2</td>
+                                                                <td>0</td>
                                                             </tr>
                                                             <tr scope="row">
                                                                 <td>
                                                                     <i class="bi bi-flag-fill"></i> Tests Started
                                                                 </td>
-                                                                <td>Jun 23, 2023 05:55:50</td>
+                                                                <td></td>
                                                             </tr>
                                                             <tr scope="row">
                                                                 <td>
                                                                     <i class="bi bi-stop-circle"></i> Tests
                                                                     Finished
                                                                 </td>
-                                                                <td>Jun 23, 2023 05:55:59</td>
+                                                                <td></td>
                                                             </tr>
                                                             <tr scope="row">
                                                                 <td>
                                                                     <i class="bi bi-stopwatch"></i> Total
                                                                     Duration
                                                                 </td>
-                                                                <td>8s</td>
+                                                                <td>0ms</td>
                                                             </tr>
                                                             <tr scope="row">
                                                                 <td>
                                                                     <i class="bi bi-trophy"></i> Fastest Test
                                                                 </td>
-                                                                <td>476ms</td>
+                                                                <td>0ms</td>
                                                             </tr>
                                                             <tr scope="row">
                                                                 <td>
                                                                     <i class="bi bi-skip-start"></i> Slowest
                                                                     Test
                                                                 </td>
-                                                                <td>7s</td>
+                                                                <td>0ms</td>
                                                             </tr>
                                                             <tr scope="row">
                                                                 <td>
                                                                     <i class="bi bi-stopwatch"></i> Average
                                                                     Execution Time
                                                                 </td>
-                                                                <td>4s</td>
+                                                                <td>0ms</td>
                                                             </tr>
                                                             <tr scope="row">
                                                                 <td>
                                                                     <i class="bi bi-stopwatch-fill"></i> Total
                                                                     Execution Time
                                                                 </td>
-                                                                <td>8s</td>
+                                                                <td>0ms</td>
                                                             </tr>
                                                             </tbody>
                                                         </table>
@@ -378,9 +374,6 @@
                                             <div class="col-sm-4">
                                                 <h3>Feature Coverage By Scenario</h3>
                                                 <!-- TEST RESULT PIE CHART -->
-                                                    <div class="chart-container" style="position: relative; width:30vw">
-                                                        <canvas id="resultChart" width="300" height="300"></canvas>
-                                                    </div>
                                             </div>
                                             <div class="col-sm-4">
                                                 <h4><i class="bi bi-check-square"></i> Test Outcomes</h4>
@@ -405,48 +398,7 @@
                                             <div class="col-sm-12">
                                                 <h3><i class="bi bi-gear"></i> Automated Tests</h3>
 
-                                                    <table class="scenario-result-table table" id="scenario-results">
-                                                        <thead>
-                                                        <tr>
-                                                            <th>feature</th>
-                                                            <th class="test-name-column">Scenario</th>
-                                                            <th>Steps</th>
-                                                            <th>Started</th>
-                                                            <th>Total Duration</th>
-                                                            <th>Result</th>
-                                                        </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                                <tr class="scenario-result FAILURE">
-                                                                    <td>
-                                                                            <a href="e090ec85ce8b814b8743b4b76fbc23cd0411b2fcfdd558a2e35a4ce4f0ed4531.html">Insurance (BPJS) untuk Insurance Biil Inquiry</a>
-                                                                    </td>
-                                                                    <td>
-                                                                        <a href="8ab3ded55617947f37091abcd082ce006ac2c2960ca7591aed2dccbdc6754814.html">User berhasil mengecek data status BPJS nya</a>
-                                                                    </td>
-                                                                    <td>6</td>
-                                                                    <td>05:55:50</td>
-                                                                    <td>7s 878ms</td>
-                                                                    <td><a href='##beforetable'><i class='bi bi-x-circle-fill failure-icon ' title='FAILURE'></i></a> <span
-                                                                                style="display:none">FAILURE</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result FAILURE">
-                                                                    <td>
-                                                                            <a href="e46056b705405ecc107991e67ff799bdb314389d97ce60b44f0473f9f4ec6268.html">Insurance Pay Bill</a>
-                                                                    </td>
-                                                                    <td>
-                                                                        <a href="4a17e5f25b0e875b138e1f45005824aafc1aecfa56c178075fdc127e3a69ea4d.html">User berhasil membayar tagihan BPJS</a>
-                                                                    </td>
-                                                                    <td>6</td>
-                                                                    <td>05:55:58</td>
-                                                                    <td>476ms</td>
-                                                                    <td><a href='##beforetable'><i class='bi bi-x-circle-fill failure-icon ' title='FAILURE'></i></a> <span
-                                                                                style="display:none">FAILURE</span>
-                                                                    </td>
-                                                                </tr>
-                                                        </tbody>
-                                                    </table>
+                                                    No automated tests were executed
 
                                             </div>
                                         </div>
@@ -460,27 +412,6 @@
                                             </div>
                                         </div>
 
-        <div class="row">
-            <div class="col-sm-12">
-                <h3>Tags</h3>
-                    <div class="card">
-                        <div class="card-body">
-                            <div>
-                                    <a href="83921638849e2455999ad9d36bc1c7dd59afa94ac92cca874a679828695f6701.html">
-                                    <span class="tag-badge badge" style="background-color:#fd938e; margin:1em;padding:4px;">
-                                        <i class="bi bi-tag-fill"></i> Insurance-Biil-Inquiry-01&nbsp;&nbsp;&nbsp;1
-                                    </span>
-                                    </a>
-                                    <a href="1cc5f76b53c45a8277f5dec787833873d0e24cc06c472543d42639d7b2fcc43e.html">
-                                    <span class="tag-badge badge" style="background-color:#fd938e; margin:1em;padding:4px;">
-                                        <i class="bi bi-tag-fill"></i> Insurance-Pay-Bill-01&nbsp;&nbsp;&nbsp;1
-                                    </span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-        </div>
                                     </div>
                                 </div>
                             </div>
@@ -521,7 +452,7 @@
             datasets: [{
                 label: 'Test Results',
                 fill: false,
-                data: [{meta: 'Passing tests', value: 0}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 2}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
+                data: [{meta: 'Passing tests', value: 0}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
                 backgroundColor: ['rgba(153,204,51,0.5)','rgba(165, 199, 238, 0.5)','rgba(168, 168, 168, 0.5)','rgba(238, 224, 152, 0.75)','rgba(255, 153, 102, 0.5)','rgba(255, 22, 49, 0.5)','rgba(255, 97, 8, 0.5)','rgba(255, 104, 255, 0.5)','rgba(83, 50, 168, 0.5)'],
                 borderColor: ['rgba(153,204,51,1)','rgba(165, 199, 238, 1)','rgba(168, 168, 168, 1)','rgba(238, 224, 152, 1)','rgba(255, 153, 102, 1)','rgba(255, 22, 49, 1)','rgba(255, 97, 8, 1)','rgba(255, 104, 255, 1)','rgba(83, 50, 168, 1)'],
                 borderWidth: 1,
@@ -616,7 +547,7 @@
             datasets: [{
                 label: 'Feature Coverage',
                 fill: false,
-                data: [{meta: 'Passing tests', value: 0}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 2}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
+                data: [{meta: 'Passing tests', value: 0}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
                 backgroundColor: ['rgba(153,204,51,0.5)','rgba(165, 199, 238, 0.5)','rgba(168, 168, 168, 0.5)','rgba(238, 224, 152, 0.75)','rgba(255, 153, 102, 0.5)','rgba(255, 22, 49, 0.5)','rgba(255, 97, 8, 0.5)','rgba(255, 104, 255, 0.5)','rgba(83, 50, 168, 0.5)'],
                 borderColor: ['rgba(153,204,51,1)','rgba(165, 199, 238, 1)','rgba(168, 168, 168, 1)','rgba(238, 224, 152, 1)','rgba(255, 153, 102, 1)','rgba(255, 22, 49, 1)','rgba(255, 97, 8, 1)','rgba(255, 104, 255, 1)','rgba(83, 50, 168, 1)'],
                 borderWidth: 1,
@@ -712,7 +643,7 @@
             datasets: [
                 {
                     label: 'Automated',
-                    data: [0,0,0,0,0,2,0,0],
+                    data: [0,0,0,0,0,0,0,0],
                     backgroundColor: ['rgba(153,204,51,0.5)','rgba(165, 199, 238, 0.5)','rgba(168, 168, 168, 0.5)','rgba(238, 224, 152, 0.75)','rgba(255, 153, 102, 0.5)','rgba(255, 22, 49, 0.5)','rgba(255, 97, 8, 0.5)','rgba(255, 104, 255, 0.5)','rgba(83, 50, 168, 0.5)'],
                     borderColor: ['rgba(153,204,51,1)','rgba(165, 199, 238, 1)','rgba(168, 168, 168, 1)','rgba(238, 224, 152, 1)','rgba(255, 153, 102, 1)','rgba(255, 22, 49, 1)','rgba(255, 97, 8, 1)','rgba(255, 104, 255, 1)','rgba(83, 50, 168, 1)'],
                     borderWidth: 1
@@ -795,7 +726,7 @@
             datasets: [{
                 label: 'Number of tests per duration',
                 fill: false,
-                data: ['1','1','0','0','0','0','0','0'],
+                data: ['0','0','0','0','0','0','0','0'],
                 backgroundColor: 'rgba(83, 146, 255,0.5)',
                 borderColor: 'rgba(83, 146, 255, 1)',
             }]

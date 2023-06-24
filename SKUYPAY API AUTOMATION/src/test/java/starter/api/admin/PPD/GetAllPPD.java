@@ -69,7 +69,7 @@ public class GetAllPPD {
         Map<String, String> queryParams = new HashMap<>();
         SerenityRest.
                 given().
-                queryParam("type", "--").
+                queryParam("type", "pulsa").
                 queryParam("provider", "Telkomsel").
                 queryParam("limit", 10).
                 queryParam("page", 1).
@@ -85,7 +85,7 @@ public class GetAllPPD {
         Map<String, String> queryParams = new HashMap<>();
         SerenityRest.
                 given().
-                queryParam("type", "--").
+                queryParam("type", "paket_data").
                 queryParam("provider", "Telkomsel").
                 queryParam("limit", 10).
                 queryParam("page", 1).

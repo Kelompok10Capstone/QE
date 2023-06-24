@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Get All PPD by Admin","Admin berhasil mendapat detail semua paket data dan pulsa (Telkomsel)","SUCCESS","2023-06-23T05:56:07.2054731+07:00[Asia/Jakarta]","0.0","0.38"
-"Get All PPD by Admin","Admin berhasil mendapat detail semua pulsa (Telkomsel)","SUCCESS","2023-06-23T05:56:07.6075878+07:00[Asia/Jakarta]","0.0","0.85"
-"Get All PPD by Admin","Admin belum berhasil mendapat detail semua paket data dan pulsa (Telkomsel) karena tidak login terlebih dahulu","SUCCESS","2023-06-23T05:56:08.4785958+07:00[Asia/Jakarta]","0.0","0.13"

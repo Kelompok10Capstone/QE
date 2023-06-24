@@ -12,7 +12,7 @@ public class GetPdamById {
     public String endpoint = "http://34.101.78.228:2424/api/v1";
     public String token = "";
 
-    //========================================================================================
+    //====================================== Get PDAM by ID 01 ==================================================
     @Step("User have endpoint auth")
     public String haveendpointauthlogin() {
         return endpoint + "/login";
@@ -52,5 +52,55 @@ public class GetPdamById {
     @Step("User received message success")
     public void ReceivedValidDataMessageSuccess() {
         restAssuredThat(response -> response.body("metadata.message", equalTo("Successfully get PDAM")));
+    }
+    //============================================= Get PDAM By ID 02 ==========================================
+    @Step("User set api invalid endpoint")
+    public String setapiinvalidendpoint() {
+        return endpoint + "/pdam/3eddb8fa-8451-4dff-9c80-96629cd34df2";
+    }
+    @Step("User send HTTP request")
+    public void sendinvalidHTTPrequest() {
+        SerenityRest.
+                given().
+                header("Authorization", "Bearer " + token).
+                get(setapiinvalidendpoint());
+    }
+
+    @Step("User received valid HTTP response code 404")
+    public void receivedinvalidHTTPresponsecodenotfound() {
+
+        restAssuredThat(response -> response.statusCode(404));
+    }
+
+    @Step("User received message")
+    public void ReceivedValidDataMessagenotfound() {
+        restAssuredThat(response -> response.body("message", equalTo("PDAM not found")));
+    }
+    //============================================= Get PDAM By ID 03 ==========================================
+    @Step("User set api endpoint without id")
+    public String setapiendpointwithoutid() {
+        return endpoint + "/pdam";
+    }
+    @Step("User send HTTP request")
+    public void sendHTTPrequestwithoutid() {
+        SerenityRest.
+                given().
+                header("Authorization", "Bearer " + token).
+                get(setapiendpointwithoutid());
+    }
+    @Step("User received message not found")
+    public void ReceivedValidDataMessagenotfoundwithoutid() {
+        restAssuredThat(response -> response.body("message", equalTo("Not Found")));
+    }
+    //============================================= Get PDAM By ID 04 ==========================================
+    @Step("User received valid HTTP response code 404")
+    public void receivedinvalidHTTPresponsenotlogin() {
+
+        restAssuredThat(response -> response.statusCode(400));
+    }
+
+    @Step("User received message")
+    public void ReceivedValidDataMessagenotlogin() {
+        restAssuredThat(response -> response.body("message", equalTo("missing or malformed jwt")));
     }
 }

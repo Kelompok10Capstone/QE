@@ -39,7 +39,7 @@ public class InternetPayBill {
     @Step("I send HTTP request")
     public void sendHTTPRequest() {
         String body = "{\n" +
-                "    \"partner_tx_id\": \"WIFI-2607996820077522\",\n" +
+                "    \"partner_tx_id\": \"WIFI-7778842392404391\",\n" +
                 "}";
         JSONObject reqBody = new JSONObject(body);
         SerenityRest.
@@ -54,8 +54,63 @@ public class InternetPayBill {
     @Step("I received valid HTTP response code 200")
     public void receivedValidHTTPResponseCode() {
 
-        restAssuredThat(response -> response.statusCode(202));
+        restAssuredThat(response -> response.statusCode(200));
     }
     @Step("I received valid data message success")
     public void iReceivedValidDataMessageSuccess() {
-        restAssuredThat(response -> response.body("metadata.message", equalTo("Successfully pay bill")));}}
+        restAssuredThat(response -> response.body("metadata.message", equalTo("Successfully pay bill")));}
+//=========================================== Internet Pay Bill 02 ===================================================
+    @Step("I send HTTP request")
+    public void sendHTTPRequestpaidid() {
+        String body = "{\n" +
+                "    \"partner_tx_id\": \"WIFI-2607996820077522\",\n" +
+                "}";
+        JSONObject reqBody = new JSONObject(body);
+        SerenityRest.
+                given().
+                header("Authorization", "Bearer "+token).
+                header("Content-Type","application/json").
+                body(reqBody.toString()).
+                post(setAPIEndpoint());
+    }
+
+
+    @Step("I received valid HTTP response code 500")
+    public void receivedinValidHTTPResponseCodepaidid() {
+
+        restAssuredThat(response -> response.statusCode(500));
+    }
+    @Step("I received valid data message error")
+    public void iReceivedValidDataErorMessage() {
+        restAssuredThat(response -> response.body("error", equalTo("this WiFi bill has been paid")));}
+    //================================================== Internet Pay Bill 03 =======================================
+    @Step("I send id paid HTTP request")
+    public void sendinvalidHTTPRequestwithinvalidid() {
+        String body = "{\n" +
+                "    \"partner_tx_id\": \"WIFI-2607996820077525\",\n" +
+                "}";
+        JSONObject reqBody = new JSONObject(body);
+        SerenityRest.
+                given().
+                header("Authorization", "Bearer "+token).
+                header("Content-Type","application/json").
+                body(reqBody.toString()).
+                post(setAPIEndpoint());
+    }
+    @Step("I received valid data eror message")
+    public void iReceivedValidDataMessageErrorninvalidid() {
+        restAssuredThat(response -> response.body("error", equalTo("record not found")));
+    }
+    //================================================== Insurance Pay Bill 04 =======================================
+
+    @Step("I received valid HTTP response code 400")
+    public void receivedinValidHTTPResponseCodebecausenotlogin() {
+
+        restAssuredThat(response -> response.statusCode(400));
+    }
+    @Step("I received valid data eror message")
+    public void iReceivedValidDataMessageErrorbecausenotlogin() {
+        restAssuredThat(response -> response.body("message", equalTo("missing or malformed jwt")));
+    }
+}
+

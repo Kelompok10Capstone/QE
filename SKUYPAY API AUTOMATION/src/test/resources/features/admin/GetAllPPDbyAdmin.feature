@@ -19,7 +19,7 @@ Feature: Get All PPD by Admin
     And Admin received message success : success get all pulsa or paket data
 
   @Get-all-PPD-by-admin-03
-  Scenario: Admin berhasil mendapat detail semua pulsa (Telkomsel)
+  Scenario: Admin berhasil mendapat detail semua paket data (Telkomsel)
     Given Admin have endpoint auth login for get PPD
     When Admin send endpoint auth for get PDD feature and get token
     Then Admin set get PPD api endpoint

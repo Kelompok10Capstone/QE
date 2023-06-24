@@ -1,14 +1,31 @@
 -------------------------------------------------------------------------------
 Test set: starter.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! - in starter.CucumberTestSuite
-starter.CucumberTestSuite  Time elapsed: 0.003 s  <<< ERROR!
-io.cucumber.core.gherkin.FeatureParserException: 
-Failed to parse resource at: file:///C:/Dev/CapstoneProjectBaru/SKUYPAY%20MOBILE%20AUTOMATION/src/test/resources/features/KebijakanKeamanan.feature
-(1:1): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Feature : Kebijakan Keamanan'
-(4:3): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Scenario: User membuka kebijakan keamanan'
-(5:5): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Given user telah login akun untuk fitur kebijakan keamanan'
-(6:5): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'When user klik akun untuk fitur kebijakan keamanan'
-(7:5): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'And user klik kebijakan keamanan hingga terbuka screen kebijakan keamanan'
-(8:0): unexpected end of file, expected: #TagLine, #FeatureLine, #Comment, #Empty
+Tests run: 6, Failures: 0, Errors: 3, Skipped: 3, Time elapsed: 64.103 s <<< FAILURE! - in starter.CucumberTestSuite
+User membuka kebijakan keamanan.user telah login akun untuk fitur kebijakan keamanan  Time elapsed: 53.73 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.Button[@content-desc="Lanjutkan"] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:\Dev\CapstoneProjectBaru\..., appium:appPackage: com.example.capstone_flutter, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Dev\CapstoneProjectBaru\..., automationName: UiAutomator2, platformName: ANDROID, platformVersion: 13.0}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 13, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:viewportRect: {height: 2131, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 176b8047-c60b-441a-8b08-5be69623b55c
+
+Kebijakan Keamanan.User membuka kebijakan keamanan  Time elapsed: 0.024 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.Button[@content-desc="Lanjutkan"] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:\Dev\CapstoneProjectBaru\..., appium:appPackage: com.example.capstone_flutter, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Dev\CapstoneProjectBaru\..., automationName: UiAutomator2, platformName: ANDROID, platformVersion: 13.0}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 13, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:viewportRect: {height: 2131, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 176b8047-c60b-441a-8b08-5be69623b55c
+
+Kebijakan Keamanan.User membuka kebijakan keamanan  Time elapsed: 0.166 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.Button[@content-desc="Lanjutkan"] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:\Dev\CapstoneProjectBaru\..., appium:appPackage: com.example.capstone_flutter, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Dev\CapstoneProjectBaru\..., automationName: UiAutomator2, platformName: ANDROID, platformVersion: 13.0}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 13, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:viewportRect: {height: 2131, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 176b8047-c60b-441a-8b08-5be69623b55c
 
