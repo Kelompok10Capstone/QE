@@ -1,0 +1,7 @@
+starter\CucumberTestSuite.class
+starter\pageobject\BasePageObject.class
+starter\screen\RegisterScreen.class
+starter\hooks\BaseDriverHooks.class
+starter\stepdefinitions\RegisterSteps.class
+starter\screen\ShopPilihKategoriPage.class
+starter\stepdefinitions\ShopPilihKategoriSteps.class

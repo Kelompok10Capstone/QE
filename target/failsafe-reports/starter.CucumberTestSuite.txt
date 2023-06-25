@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: starter.CucumberTestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 3, Skipped: 12, Time elapsed: 617.474 s <<< FAILURE! - in starter.CucumberTestSuite
+sebagai user saya tidak dapat mendaftarkan akun karena field Email masih kosong #2.user berada di welcome screen  Time elapsed: 606.806 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LV-ACR-PC50E5T5', ip: '192.168.43.16'
+Caused by: org.openqa.selenium.WebDriverException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to 127.0.0.1/127.0.0.1:4723 after 600000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to 127.0.0.1/127.0.0.1:4723 after 600000 ms
+
+sebagai user saya berhasil melakukan register sehingga saya dapat login dengan akun baru.sebagai user saya tidak dapat mendaftarkan akun karena field Email masih kosong #2  Time elapsed: 0.214 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LV-ACR-PC50E5T5', ip: '192.168.43.16'
+Caused by: org.openqa.selenium.WebDriverException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to 127.0.0.1/127.0.0.1:4723 after 600000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to 127.0.0.1/127.0.0.1:4723 after 600000 ms
+
+sebagai user saya berhasil melakukan register sehingga saya dapat login dengan akun baru.sebagai user saya tidak dapat mendaftarkan akun karena field Email masih kosong #2  Time elapsed: 0.642 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LV-ACR-PC50E5T5', ip: '192.168.43.16'
+Caused by: org.openqa.selenium.WebDriverException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to 127.0.0.1/127.0.0.1:4723 after 600000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to 127.0.0.1/127.0.0.1:4723 after 600000 ms
+

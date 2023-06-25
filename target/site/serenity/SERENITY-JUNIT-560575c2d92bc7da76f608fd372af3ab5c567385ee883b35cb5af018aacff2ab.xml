@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="sebagai user saya berhasil melakukan register sehingga saya dapat login dengan akun baru" skipped="0" tests="1" time="607.94" timestamp="2023-06-24 01:39:14"><testcase name="sebagai user saya tidak dapat mendaftarkan akun karena field Email masih kosong"><error message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: 'LV-ACR-PC50E5T5', ip: '192.168.43.16'" type="org.openqa.selenium.SessionNotCreatedException">Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LV-ACR-PC50E5T5', ip: '192.168.43.16'</error><system-err>Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LV-ACR-PC50E5T5', ip: '192.168.43.16'&#13;
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)&#13;
+io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)&#13;
+io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)&#13;
+io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:117)&#13;
+test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:38)&#13;
+starter.pageobject.BasePageObject.getDriver(BasePageObject.java:20)&#13;
+starter.pageobject.BasePageObject.onWait(BasePageObject.java:26)&#13;
+starter.pageobject.BasePageObject.waitUntilVisible(BasePageObject.java:38)&#13;
+starter.screen.RegisterScreen.onWelcomeScreen(RegisterScreen.java:71)&#13;
+starter.stepdefinitions.RegisterSteps.userBeradaDiWelcomeScreen(RegisterSteps.java:15)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:56)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)&#13;
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:330)&#13;
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:51)&#13;
+</system-err></testcase></testsuite>

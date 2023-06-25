@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"sebagai user saya berhasil melakukan register sehingga saya dapat login dengan akun baru","sebagai user saya tidak dapat mendaftarkan akun karena field Email masih kosong","ERROR","2023-06-24T13:39:14.755+07:00[Asia/Bangkok]","0.0","607.94"
